@@ -2,7 +2,23 @@
 
 - Barcode reproduction : تولید بارکد
 - cod-order : ثبت سفارش پرداخت در محل
-- 
+- anboh-order : ثبت سفارش انبوه
+- cancel cod order : کنسل سفارش پرداخت در محل 
+- cancel order : کنسلی سفارش
+- COD financial process : فرایند مالی پرداخت در محل 
+- cod - order : سفارش پرداخت محل 
+- cod paln : درخواست cod 
+- current cancel financial procress order : فرایند مالی کنسلی بعد از ثبت سفارش
+- current complate finanical procerss after order : فرایند مالی بعد از ثبت سفارش 
+- custumerPlan : پنل قرارداد مشتری 
+- Final deducation order : غرامت و مفقودی نماینده ها 
+- Foreign-order : ثبت سفارش خارجی
+- inner order :  (پرداخت آنلاین )ثبت سفارش داخلی 
+- innercod-order : ثبت سفارش داخلی - پرداخت در محل
+- login : ورود و ثبت نام 
+- process after order : مراحل بعد از ثبت سفارش 
+- referral cargo to the representative : ارجاع بار به نماینده
+- sazmani order : ثبت سفارش سازمانی
 - 
 - 
 - 
