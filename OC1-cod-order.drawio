@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="gnVa5umi9aZT9KWG7_A7" name="Page-1">
-        <mxGraphModel dx="965" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+        <mxGraphModel dx="664" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -143,10 +143,10 @@
                 <mxCell id="32" value="دریافت شماره سفارش" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="30" vertex="1">
                     <mxGeometry x="1200" y="85" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="30" source="38" target="228">
+                <mxCell id="230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="30" source="38" target="228" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="30" source="38" target="40">
+                <mxCell id="231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="30" source="38" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="&lt;font style=&quot;font-size: 16px&quot;&gt;اعمال قرارداد مشتری&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="30" vertex="1">
@@ -165,7 +165,7 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="49" value="&lt;font style=&quot;font-size: 8px&quot;&gt;دریافت کد رهگیری&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="48" vertex="1" connectable="0">
+                <mxCell id="49" value="&lt;font style=&quot;font-size: 14px&quot;&gt;BB1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="48" vertex="1" connectable="0">
                     <mxGeometry x="0.1188" y="-2" relative="1" as="geometry">
                         <mxPoint x="-7" y="-2" as="offset"/>
                     </mxGeometry>
@@ -192,12 +192,12 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="215" value="&lt;span style=&quot;font-size: 8px&quot;&gt;دسترسی COD&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="214" vertex="1" connectable="0">
+                <mxCell id="215" value="&lt;span style=&quot;font-size: 13px&quot;&gt;BCP1&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="214" vertex="1" connectable="0">
                     <mxGeometry x="0.1188" y="-2" relative="1" as="geometry">
                         <mxPoint x="-7" y="-2" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="228" value="&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-size: 8px&quot;&gt;قرارداد مشتری&lt;/span&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=0;" vertex="1" parent="30">
+                <mxCell id="228" value="&lt;span style=&quot;color: rgb(240 , 240 , 240)&quot;&gt;BC1&lt;/span&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=0;" parent="30" vertex="1">
                     <mxGeometry x="910" y="155" width="80" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="vendor" style="swimlane;startSize=20;horizontal=0;" parent="2" vertex="1">
@@ -234,7 +234,7 @@
                 <mxCell id="220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" parent="2" source="40" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.641;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2" source="221" target="51">
+                <mxCell id="233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.641;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="2" source="221" target="51" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" value="ثبت اطلاعات فرستنده" style="swimlane;fontColor=#000000;" parent="1" vertex="1">
@@ -251,31 +251,31 @@
                 <mxCell id="225" value="&lt;div style=&quot;text-align: right&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 25px&quot;&gt;استان&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-size: 25px&quot;&gt;&lt;div style=&quot;text-align: right&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;شهر&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 25px&quot;&gt;&lt;div style=&quot;text-align: right&quot;&gt;&lt;span&gt;آدرس جغرافیایی فرستنده از روی نقشه&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-size: 25px&quot;&gt;&lt;div style=&quot;text-align: right&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;کد پستی&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;div style=&quot;text-align: right&quot;&gt;&lt;span&gt;&amp;nbsp;شماره تماس&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;&lt;span&gt;آدرس متنی&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;&lt;span&gt;نام و نام خانوادگی&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;&lt;span&gt;نام شرکت&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;&lt;span&gt;پست الکترونیک&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="66" vertex="1">
                     <mxGeometry x="70" y="100" width="330" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="270" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="66">
+                <mxCell id="270" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="66" vertex="1">
                     <mxGeometry x="412" y="35" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="271" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="66">
+                <mxCell id="271" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="66" vertex="1">
                     <mxGeometry x="412" y="65" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="272" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="66">
+                <mxCell id="272" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="66" vertex="1">
                     <mxGeometry x="412" y="125" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="273" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="66">
+                <mxCell id="273" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="66" vertex="1">
                     <mxGeometry x="412" y="155" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="274" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="66">
+                <mxCell id="274" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="66" vertex="1">
                     <mxGeometry x="412" y="185" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="275" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="66">
+                <mxCell id="275" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="66" vertex="1">
                     <mxGeometry x="412" y="215" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="276" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="66">
+                <mxCell id="276" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" parent="66" vertex="1">
                     <mxGeometry x="412" y="245" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="277" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="66">
+                <mxCell id="277" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" parent="66" vertex="1">
                     <mxGeometry x="412" y="275" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="278" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="66">
+                <mxCell id="278" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="66" vertex="1">
                     <mxGeometry x="412" y="95" width="20" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="70" value="bank" style="swimlane;startSize=20;horizontal=0;" parent="1" vertex="1">
@@ -300,91 +300,91 @@
                         <mxPoint x="740" y="520" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="72" target="46">
+                <mxCell id="232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="72" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1730" y="895"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="234" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="234" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="480" y="1181" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="235" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="235" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="480" y="1211" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="236" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="236" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="480" y="1271" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="237" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="237" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="480" y="1301" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="238" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="238" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="480" y="1331" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="239" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="239" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="480" y="1361" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="240" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                <mxCell id="240" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
                     <mxGeometry x="480" y="1391" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="241" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                <mxCell id="241" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
                     <mxGeometry x="480" y="1421" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="242" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="242" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="480" y="1241" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="252" value=" ثبت اطلاعات  مرسوله" style="swimlane;fontColor=#000000;" vertex="1" parent="1">
+                <mxCell id="252" value=" ثبت اطلاعات  مرسوله" style="swimlane;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="590" y="1149.75" width="340" height="241.25" as="geometry"/>
                 </mxCell>
-                <mxCell id="253" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;محتوایات مرسوله&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;ابعاد مرسوله&lt;br&gt;ارزش ریالی کالا&lt;br&gt;تعداد بسته ها&amp;nbsp;&lt;br&gt;وزن مرسوله&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;انتخاب بیمه&lt;br&gt;کارتون نیاز دارید&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="252">
+                <mxCell id="253" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;محتوایات مرسوله&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;ابعاد مرسوله&lt;br&gt;ارزش ریالی کالا&lt;br&gt;تعداد بسته ها&amp;nbsp;&lt;br&gt;وزن مرسوله&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;انتخاب بیمه&lt;br&gt;کارتون نیاز دارید&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FFFFFF;" parent="252" vertex="1">
                     <mxGeometry x="130" y="60" width="160" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="254" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="252">
+                <mxCell id="254" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="252" vertex="1">
                     <mxGeometry x="300" y="30" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="255" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="252">
+                <mxCell id="255" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="252" vertex="1">
                     <mxGeometry x="300" y="57.5" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="256" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="252">
+                <mxCell id="256" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="252" vertex="1">
                     <mxGeometry x="300" y="170" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="257" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="252">
+                <mxCell id="257" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="252" vertex="1">
                     <mxGeometry x="300" y="140" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="258" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="252">
+                <mxCell id="258" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="252" vertex="1">
                     <mxGeometry x="300" y="90" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="259" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="252">
+                <mxCell id="259" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" parent="252" vertex="1">
                     <mxGeometry x="300" y="200" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="260" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="252">
+                <mxCell id="260" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="252" vertex="1">
                     <mxGeometry x="300" y="115" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="279" value="انتخاب خدمات ارزش افزوده" style="swimlane;startSize=23;fontColor=#000000;" vertex="1" parent="1">
+                <mxCell id="279" value="انتخاب خدمات ارزش افزوده" style="swimlane;startSize=23;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="1550" y="1070" width="310" height="235" as="geometry"/>
                 </mxCell>
-                <mxCell id="280" value="&lt;div style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#000000&quot;&gt;چاپ فاکتور&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 25px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#000000&quot;&gt;کد تخفیف&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 25px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#000000&quot;&gt;فعال کردن اطلاع رسانی پیامکی&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#000000&quot;&gt;چاپ برند تجاری&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="279">
+                <mxCell id="280" value="&lt;div style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#000000&quot;&gt;چاپ فاکتور&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 25px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#000000&quot;&gt;کد تخفیف&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 25px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#000000&quot;&gt;فعال کردن اطلاع رسانی پیامکی&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#000000&quot;&gt;چاپ برند تجاری&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FFFFFF;" parent="279" vertex="1">
                     <mxGeometry x="-10" y="80" width="280" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="281" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="279">
+                <mxCell id="281" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="279" vertex="1">
                     <mxGeometry x="280" y="55" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="282" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="279">
+                <mxCell id="282" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" parent="279" vertex="1">
                     <mxGeometry x="280" y="90" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="283" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="279">
+                <mxCell id="283" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" parent="279" vertex="1">
                     <mxGeometry x="280" y="150" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="284" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="279">
+                <mxCell id="284" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" parent="279" vertex="1">
                     <mxGeometry x="280" y="117.5" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="291" value="قرارداد مشتری" style="swimlane;fontColor=#000000;" vertex="1" parent="1">
+                <mxCell id="291" value="قرارداد مشتری" style="swimlane;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="1950" y="1053.5" width="340" height="307.5" as="geometry">
                         <mxRectangle x="130" y="1140" width="90" height="23" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="292" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 25px&quot;&gt;نماینده&lt;br&gt;مشتری&lt;br&gt;جمع اور&lt;br&gt;پرینت&lt;br&gt;تخفیف ها&amp;nbsp;&lt;br&gt;بازاریاب&lt;br&gt;لیزینگ&lt;br&gt;لفاف و بسته بندی&lt;br&gt;انبار داری&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="291">
+                <mxCell id="292" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 25px&quot;&gt;نماینده&lt;br&gt;مشتری&lt;br&gt;جمع اور&lt;br&gt;پرینت&lt;br&gt;تخفیف ها&amp;nbsp;&lt;br&gt;بازاریاب&lt;br&gt;لیزینگ&lt;br&gt;لفاف و بسته بندی&lt;br&gt;انبار داری&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FFFFFF;" parent="291" vertex="1">
                     <mxGeometry x="143" y="95" width="160" height="180" as="geometry"/>
                 </mxCell>
             </root>
