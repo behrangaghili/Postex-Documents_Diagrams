@@ -23,4 +23,8 @@ Order diagram
    - OI1(inner order) :  (پرداخت آنلاین )ثبت سفارش داخلی 
    - OC1(innercod-order) : ثبت سفارش داخلی - پرداخت در محل
    - OS1(sazmani order) : ثبت سفارش سازمانی
- 
+
+Abbreviation is such that the first letter of the part in large size is the first subset of the part with number 1 or 2
+for Example : BB1 = first B = Backend
+                    secound B = Barcode reproduction 
+                    Number 1 indicates the current state of the diagram 
