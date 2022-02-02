@@ -25,28 +25,7 @@
 9. [تخفیفات ](#تخفیفات)
 10. [تیکت](#تیکت)
 11. [همکاری در فروش](#همکاری-در-فروش)
-- سرویس ها 
-  1. 
-  2. service provider
-  3. accounting service
-  4. notification service
-  5. Ticketing 
-  6. warehouses
-  7. labeling
-  8. Backups
-  9. I/O
-  10. Gateway
-  11. parcel-order service
-  12. Bulk service 
-  13. Agent service 
-  14. Product service
-  15. Price service
-  16. contract service
-  17. tracking servicee 
-  18. security service
-  19. payment service 
-  20. address service 
-   
+
 ---
 
 # مقدمه
@@ -64,22 +43,22 @@
    ![ثبت نام در سامانه](2-Authentication-and-Roles/regester.PNG)
    در ادامه ثبت نام کد ارسالی به تلفن همراه شما را باید وارد کنید 
 - دیاگرام بخش ثبت نام 
-  [دیاگرام ثبت نام](Backend%20diagram/BL1-logIn.drawio)
- ![دیاگرام ورود](Backend%20diagram/BL1-logIn.png)
+  [دیاگرام ثبت نام](2-Authentication-and-Roles/BL1-logIn.drawio)
+ ![دیاگرام ورود](2-Authentication-and-Roles/BL1-logIn.png)
 ---
 ### ورود 
 برای ورود به حساب کاربری از  شماره همراه و رمز تعیین شده در ثبت نام استفاده میکنیم و وارد پنل کاربری می شویم 
-![ورود به سامانه](pics/login.PNG)
-![حساب کاربری](pics/accunt.PNG)
+![ورود به سامانه](2-Authentication-and-Roles/login.PNG)
+![حساب کاربری](2-Authentication-and-Roles/accunt.PNG)
 - دیاگرام ورود
-  [دیاگرام ورود](Backend%20diagram/BL1-logIn.drawio)
-  ![دیاگرام ورود](Backend%20diagram/BL1-logIn.png)
+  [دیاگرام ورود](2-Authentication-and-Roles/BL1-logIn.drawio)
+  ![دیاگرام ورود](2-Authentication-and-Roles/BL1-logIn.png)
 ###دسترسی ها و قرارداد مشتری 
 دراین قسمت شما میتوانید دسترسی خاصی همراه با قرادادی با مشتری ایجاد کنید با این عمل کاربران مدیریت و نقش ها به صورتی در سیستم کار میکند 
-![قراداد مشتری](pics/plan.PNG)
+![قراداد مشتری](2-Authentication-and-Roles/plan.PNG)
 ###لیست موجودیت ها 
-[قرارداد مشتری](Backend%20diagram/BC1-CustumerPlan.drawio)
-![قرارداد مشتری](Backend%20diagram/BC1-CustumerPlan.png)
+[قرارداد مشتری](2-Authentication-and-Roles/BC1-CustumerPlan.drawio)
+![قرارداد مشتری](2-Authentication-and-Roles/BC1-CustumerPlan.png)
 ### موجودیت ها
 - Group
 -  Roles
