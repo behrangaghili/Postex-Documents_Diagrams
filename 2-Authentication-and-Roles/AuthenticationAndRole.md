@@ -30,3 +30,7 @@
 ### ERD دیتابیس
 [ERD Database](Authentication.drawio)
 ![ERD AuthenticationAndRole](Authentication.png)
+
+### Methods
+[Method](Authentication%20And%20Role%20Method.drawio)
+![method](Authentication%20And%20Role%20Method.jpg)
