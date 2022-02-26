@@ -4,7 +4,7 @@
   - [ثبت نام ](#ثبت-نام)
   - [ورود ](#-ورود)
   - [دستری های های مشتری](#دسترسی-cod) 
-2. تعریف سرویس ها (Product servise)  
+2. تعریف سرویس ها [Product servise](2-Product-service/../2-Product-servise/ProductServise.md) 
   - [تخفیفات ](#تخفیفات)
   - [همکاری در فروش](#همکاری-در-فروش)
   - قیمت سرویس ها(price service)
