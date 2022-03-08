@@ -1,0 +1,16 @@
+<mxfile host="65bd71144e">
+    <diagram id="BJ6Jli2lfZDKd5RAHIWU" name="Page-1">
+        <mxGraphModel dx="1567" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="AffilateService" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="320" width="520" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="CreateAffilate&lt;br&gt;GetAffilateList&lt;br&gt;EditAffilate&lt;br&gt;AssignAffilateToCustomer&lt;br&gt;GetAffilateById&lt;br&gt;GetAffilateByUserName&lt;br&gt;DeleteAffilate&lt;br&gt;GetOrderUnderAffilate" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;" parent="2" vertex="1">
+                    <mxGeometry x="60" y="70" width="430" height="340" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

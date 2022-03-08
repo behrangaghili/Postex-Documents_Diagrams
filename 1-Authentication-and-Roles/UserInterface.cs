@@ -7,7 +7,7 @@ interface User{
     /// <param name="username"></param>
     /// <param name="password"></param>
     /// <returns>If User is Authenticated returns True </returns>
-    bool Login(string username,string password);
+    bool SignIn(string username,string password);
 
      /// <summary>
     ///  signup user with PhoneNumber , National Code and password
