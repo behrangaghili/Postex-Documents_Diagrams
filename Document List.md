@@ -4,6 +4,7 @@
 
 
 Backend diagram
+
    - BB1(Barcode reproduction) : تولید بارکد
    - BCP1(cod paln ): درخواست cod 
    - BC1(custumerPlan) : پنل قرارداد مشتری 
@@ -12,6 +13,7 @@ Backend diagram
    - BRR1(referral cargo to the representative) : ارجاع بار به نماینده
 
 Finanical diagram
+
    - FCO1(current cancel financial procress order) : فرایند مالی کنسلی بعد از ثبت سفارش
    - FO1(current complate finanical procerss after order) : فرایند مالی بعد از ثبت سفارش 
    - FD1(Final deducation order) : غرامت و مفقودی نماینده ها 
