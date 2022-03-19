@@ -1,4 +1,7 @@
-interface User{
+interface IContract{
+    public int SaveContract(ContractItems items);
+
+}
 
 public int saveContract(ContractItems item, out string _error)
         {
