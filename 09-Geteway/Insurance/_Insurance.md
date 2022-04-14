@@ -14,6 +14,12 @@
 
 ![بیمه های ثبت شده](imgs/InsurancesList.png)
 
+## استعلام بیمه
+
+در این بخش کاربران ادمین می توانند با انتخاب شرکت پستی و وارد کردن ارزش کالا، مبلغ بیمه را استعلام بگیرند.
+
+![استعلام بیمه](imgs/InsuranceCheck.png)
+
 ## ERD دیتابیس
 
 [ERD Database](Diagrams/InsuranceDatabase.drawio)
