@@ -5,25 +5,134 @@
 - [تعریف سرویس ها (Product servise)](#تعریف-سرویس-ها-product-servise)
   - [مقدمه](#مقدمه)
   - [Feature](#feature)
-    - [Service Provider](#service-provider)
-    - [Pricing Service](#pricing-service)
+    - [Getwaye Price](#getwaye-price)
+    - [Add service provider](#add-service-provider)
+    - [Bulk Service](#bulk-service)
+    - [Price Service](#price-service)
+    - [Tracking Service](#tracking-service)
   - [موجودیت ها](#موجودیت-ها)
+    - [Courier](#courier)
+  - [Methods](#methods)
+  - [فرایند ها](#فرایند-ها)
+    - [Add Service Provider](#add-service-provider-1)
+    - [Pricing Service](#pricing-service)
+  - [دیاگرام ها](#دیاگرام-ها)
     - [متد های , انتیتی های موجود در بخش تعریف سرویس ها](#متد-های--انتیتی-های-موجود-در-بخش-تعریف-سرویس-ها)
-  - [متد ها](#متد-ها)
 
 ---
 
 ## مقدمه
 
 وظیقه اصلی این سرویس تعریف کوریر های پستی مثل کالا رسان ، پست پیشتاز و ... همچنین اعمال محدودیت های هر سرویس را برعهده دارد.
+این سرویس وظیفه ساخت , اتصال به سرویس های پستی خارجی را بر عهده دارد ، هر سرویسی که ثبت می شود به دو صورت می توان آن را پیاده سازی کرد یا به صورت آنلاین که از طریق ای پی آی پیاده سازی می شود یا به صورت آفلاین است. همچنین سرویسی مانند رهگیری در این بخش تعریف می شود که وظیفه ترکینگ و مپ کردن استاتوس ها را برعهده دارد.
 
 ---
 
 ## Feature
 
-### Service Provider
+### Getwaye Price
 
- این سرویس وظیفه ساخت , اتصال به سرویس های پستی خارجی را بر عهده دارد ، هر سرویسی که ثبت می شود به دو صورت می توان آن را پیاده سازی کرد یا به صورت آنلاین که از طریق ای پی آی پیاده سازی می شود یا به صورت آفلاین است 
+- Define Product
+- Define Product Attr
+- Define Discont
+
+### Add service provider
+
+### Bulk Service
+
+- Bulk Service
+
+### Price Service
+
+- ValidateInputbyContract
+- Get Price
+- Calc Price
+- Log Price
+
+### Tracking Service
+
+- Bulk Tracking
+- Single Tracking
+
+---
+
+## موجودیت ها
+
+### Courier
+
+- Internatioal Bluesky
+- Internatioal PDE
+- InternatioalPost
+- Internatioal Chapar
+- Domestic Post
+- Domestic Persia
+- Domestic Chapar
+- Domestic kalaresan
+- Domestic Tipax
+- Domestic Mahex
+- Domestic Yarbox
+- Domestic Aramex
+- Delivery Peykhub
+- Delivery link
+- Delivery Tarof
+- Delivery Tinex
+- Delivery Speed
+- Connect to PishroPost
+- SLA
+- Api
+- COD
+- Courer Discount
+- Courer Zone
+- Courer Limit
+- weight
+- Volume
+- Status
+
+
+---
+
+## Methods
+
+[متد های موجود درسرویس](Diagrams/ServiceProvider.drawio)
+
+- Login(Username , password)
+  احراز هویت
+- RenewToken(Usename,password)
+  دریافت توکن جدید
+- GetPrice
+  دریافت قیمت
+- RegisterPrice
+  ثبت مرسوله
+- CancelParsel
+   کنسل کردن مرسوله
+- TrackParsel
+  پیگیری مرسوله
+- EditParsel
+  ویرایش مرسوله
+
+[متد های Service Provider](Diagrams/ProductServiceMethod.drawio)
+
+- CeateProductionService:
+  این متد به منظور ساخت سرویس ها مورد استفاده می گیرد . ورودی را از دیتابیس می گیرد و سرویس ها را ایجاد می کند
+- EditProductService :
+  متدی جهت ویرایش سرویس های عریف شده
+
+
+[متد های بخش قیمت سرویس ها](Diagrams/PricingServiceMethod.drawio)
+
+- GetEigibleService :
+   دریافت لیست سرویس ها با توجه به ورودی های کاربر
+- GetPriceFrom"ServiceName"
+  استعلام قیمت سرویس دهنده های پستی  
+- PriceManipulation
+  این متد وظیفه اصلاح قیمت های خام که از سمت سرویس دهنده های پستی می شود را برعهده دارد و قیمت نهایی را به کاربر نشان می دهد
+
+---
+
+## فرایند ها
+
+### Add Service Provider
+
  در تعریف سرویس دهنده ها باید به نکاتی توجه کرد که از مهمترین آن ها میتوان به ارسال داخلی یا خارجی کوریر ، بین شهری یا درون شهری بودن آن ، جمع  که آوری دارد یا خیر و... اشاره کرد که میتوانید لیست موارد قابل تعریف برای هر سرویس دهنده را در زیر مشاهده کنید 
 
 - شرکت های کرویر پستی
@@ -76,49 +185,9 @@
 
 ---
 
-## موجودیت ها
+## دیاگرام ها
 
 ### متد های , انتیتی های موجود در بخش تعریف سرویس ها
 
 [دیتابیس تعریف سرویس](Diagrams/Product.drawio)
 ![دیتابیس تعریف سرویس](imgs/Product.png)
-
-[متد های موجود درسرویس](Diagrams/ServiceProvider.drawio)
-
-- Login(Username , password)
-  احراز هویت
-- RenewToken(Usename,password)
-  دریافت توکن جدید
-- GetPrice
-  دریافت قیمت
-- RegisterPrice
-  ثبت مرسوله
-- CancelParsel
-   کنسل کردن مرسوله
-- TrackParsel
-- پیگیری مرسوله
-- EditParsel
-- ویرایش مرسوله
-
----
-
-## متد ها
-
-[متد های Service Provider](Diagrams/ProductServiceMethod.drawio)
-
-- CeateProductionService:
-  این متد به منظور ساخت سرویس ها مورد استفاده می گیرد . ورودی را از دیتابیس می گیرد و سرویس ها را ایجاد می کند
-- EditProductService :
-  متدی جهت ویرایش سرویس های عریف شده
-
-
-[متد های بخش قیمت سرویس ها](Diagrams/PricingServiceMethod.drawio)
-
-- GetEigibleService :
-   دریافت لیست سرویس ها با توجه به ورودی های کاربر
-- GetPriceFrom"ServiceName"
-  استعلام قیمت سرویس دهنده های پستی  
-- PriceManipulation
-  این متد وظیفه اصلاح قیمت های خام که از سمت سرویس دهنده های پستی می شود را برعهده دارد و قیمت نهایی را به کاربر نشان می دهد
-
-
