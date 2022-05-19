@@ -3,6 +3,10 @@
 - [Contract Service](#contract-service)
   - [مقدمه](#مقدمه)
   - [Feature](#feature)
+  - [موجودیت ها سرویس قرارداد](#موجودیت-ها-سرویس-قرارداد)
+  - [Method](#method)
+    - [مدل های ورودی توابع](#مدل-های-ورودی-توابع)
+  - [فرایند](#فرایند)
     - [ثبت سفارش](#ثبت-سفارش)
     - [جمع آور](#جمع-آور)
     - [لفاف و بسته بندی](#لفاف-و-بسته-بندی)
@@ -23,10 +27,7 @@
     - [خدمات پستی](#خدمات-پستی)
       - [فاکتور و رسید ارسال شده به مشتری](#فاکتور-و-رسید-ارسال-شده-به-مشتری)
     - [وزن حجمی](#وزن-حجمی)
-  - [موجودیت ها سرویس قرارداد](#موجودیت-ها-سرویس-قرارداد)
-  - [دیاگرام مربوط به پنل قرارداد](#دیاگرام-مربوط-به-پنل-قرارداد)
-  - [Method](#method)
-    - [مدل های ورودی توابع](#مدل-های-ورودی-توابع)
+  - [دیاگرام ها](#دیاگرام-ها)
 
 ---
 
@@ -47,6 +48,87 @@
 ---
 
 ## Feature
+
+- Add Contract
+- Edit Cotract
+- Active Contract
+- Disable Contract
+- CustomerContract
+- General Contract
+
+---
+
+## موجودیت ها سرویس قرارداد
+
+- User
+- Courer
+- Contract
+- Leasing
+- sms natfication
+- leassing Precent
+- max percent
+- Packing Commission
+- Registeration Commission
+- Distributing commission
+- Collection Commission
+- leassing Commission
+
+---
+
+## Method
+
+[متد های پنل قرارداد](Diagrams/ContractServiceMethod.drawio)
+
+- CreateEditContract
+  ایجاد قرارداد جدید برای مشتری
+- DeActiveCurrentContract
+  غیرفعال سازی پنل قرارداد مشتری
+
+### مدل های ورودی توابع
+
+- Contract Items Model
+  - ContractId
+    شناسه قرارداد
+  - CustomerId
+    شناسه مشتری
+  - RegistereContrctor
+    ثبت نام
+  - RegistereContrctorCost
+    درصد ثبتنام کننده
+  - PriningContrctorPrice
+   هزینه های پرینت
+  - AffiliateContrctor
+   پنل همکاری در فروش
+  - MarketingCommissionValue
+   درصد بازاریابی
+  - MarketingCommissionLeasing
+   درصد بازاریابی لیزینگ
+  - PackingContractor
+    قرارداد بسته بندی
+  - List<PackingItemForContractModel> PackingContractorItems
+    موارد موجود در قرارداد بسته بندی
+  - LeasingPercent
+    درصد لیزینگ
+  - ReturnRoofValue
+    حداکثر مقدار برگشتی
+  - DailyCrediteRoofValue
+   سقف اعتبار روزانه
+  - ShippingAcceptancePercentageValue
+   درصد قبول مرسوله
+  - CODPercent
+    درصد پرداخت در محل
+
+- Packing Item For Contract Model
+  - CartoonItemsName
+    نام ایتم بسته بندی
+  - CartoonItemsCost
+   هزینه بسته بندی
+  - CartoonItemsPrice
+   قیمت بسته بندی
+
+---
+
+## فرایند
 
 ### ثبت سفارش
   
@@ -296,67 +378,10 @@ COD
 
 ---
 
-## موجودیت ها سرویس قرارداد
-
-[ContractService Database](Diagrams/ContractServiceDatabase.drawio)
-![contractservice](imgs/ContractServiceDatabase.png)
-
----
-
-## دیاگرام مربوط به پنل قرارداد
+## دیاگرام ها
 
 [پنل قرارداد](Diagrams/BC1-CustumerPlan.drawio)
 ![ContractService](imgs/BC1-CustumerPlan.png)
 
----
-
-## Method
-
-[متد های پنل قرارداد](Diagrams/ContractServiceMethod.drawio)
-
-- CreateEditContract
-  ایجاد قرارداد جدید برای مشتری
-- DeActiveCurrentContract
-  غیرفعال سازی پنل قرارداد مشتری
-
-### مدل های ورودی توابع
-
-- Contract Items Model
-  - ContractId
-    شناسه قرارداد
-  - CustomerId
-    شناسه مشتری
-  - RegistereContrctor
-    ثبت نام
-  - RegistereContrctorCost
-    درصد ثبتنام کننده
-  - PriningContrctorPrice
-   هزینه های پرینت
-  - AffiliateContrctor
-   پنل همکاری در فروش
-  - MarketingCommissionValue
-   درصد بازاریابی
-  - MarketingCommissionLeasing
-   درصد بازاریابی لیزینگ
-  - PackingContractor
-    قرارداد بسته بندی
-  - List<PackingItemForContractModel> PackingContractorItems
-    موارد موجود در قرارداد بسته بندی
-  - LeasingPercent
-    درصد لیزینگ
-  - ReturnRoofValue
-    حداکثر مقدار برگشتی
-  - DailyCrediteRoofValue
-   سقف اعتبار روزانه
-  - ShippingAcceptancePercentageValue
-   درصد قبول مرسوله
-  - CODPercent
-    درصد پرداخت در محل
-
-- Packing Item For Contract Model
-  - CartoonItemsName
-    نام ایتم بسته بندی
-  - CartoonItemsCost
-   هزینه بسته بندی
-  - CartoonItemsPrice
-   قیمت بسته بندی
+[ContractService Database](Diagrams/ContractServiceDatabase.drawio)
+![contractservice](imgs/ContractServiceDatabase.png)
