@@ -95,7 +95,7 @@
 
 [متد های موجود درسرویس](Diagrams/ServiceProvider.drawio)
 
-- Login(Username , password)
+- Authenticate(Username , password)
   احراز هویت
 - RenewToken(Usename,password)
   دریافت توکن جدید
@@ -103,11 +103,11 @@
   دریافت قیمت
 - RegisterPrice
   ثبت مرسوله
-- CancelParsel
+- CancelParcel
    کنسل کردن مرسوله
-- TrackParsel
+- TrackParcel
   پیگیری مرسوله
-- EditParsel
+- EditParcel
   ویرایش مرسوله
 
 [متد های Service Provider](Diagrams/ProductServiceMethod.drawio)
