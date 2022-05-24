@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="ZOrJ16NqOoNoAuwkWN3O" name="Page-1">
+        <mxGraphModel dx="3280" dy="2268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="135" value="Role" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;" parent="1" vertex="1">
+                    <mxGeometry x="32" y="20" width="1590" height="1110" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="custumer" style="swimlane;startSize=20;horizontal=0;" parent="135" vertex="1">
+                    <mxGeometry y="20" width="1590" height="870" as="geometry"/>
+                </mxCell>
+                <mxCell id="272" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="136" vertex="1">
+                    <mxGeometry x="68" y="70" width="202" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="273" value="&lt;font style=&quot;font-size: 50px&quot;&gt;ثبت نام&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="136" vertex="1">
+                    <mxGeometry x="78" y="130" width="132" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="274" value="&lt;font style=&quot;font-size: 50px&quot;&gt;درخواست سطح درسترسی&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="136" vertex="1">
+                    <mxGeometry x="458" y="80" width="312" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="275" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="136" source="272" target="274" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="Postex" style="swimlane;startSize=20;horizontal=0;" parent="136" vertex="1">
+                    <mxGeometry y="265" width="1590" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="279" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="137" source="276" target="278" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="276" value="&lt;font style=&quot;font-size: 50px&quot;&gt;ورود به قسمت مشتری&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="137" vertex="1">
+                    <mxGeometry x="280" y="172.5" width="338" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="281" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="137" source="278" target="280" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="278" value="&lt;span style=&quot;font-size: 50px&quot;&gt;وارد کردن نام کاربری&lt;/span&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="137" vertex="1">
+                    <mxGeometry x="688" y="172.5" width="302" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="283" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="137" source="280" target="282" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="280" value="&lt;font style=&quot;font-size: 50px&quot;&gt;انخاب سطح دسترسی&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="137" vertex="1">
+                    <mxGeometry x="1080" y="170" width="260" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="282" value="&lt;font style=&quot;font-size: 40px&quot;&gt;&lt;font style=&quot;font-size: 40px&quot;&gt;&lt;br&gt;پایان&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" parent="137" vertex="1">
+                    <mxGeometry x="1438" y="167.5" width="132" height="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="277" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="136" source="274" target="276" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="vendor" style="swimlane;startSize=20;horizontal=0;" parent="135" vertex="1">
+                    <mxGeometry y="890" width="1590" height="220" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

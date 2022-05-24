@@ -98,11 +98,11 @@
 
 ### دیاگرام بخش ثبت نام و ورود
 
-[دیاگرام ثبت نام](Diagrams/BL1-logIn.drawio)
+[دیاگرام ثبت نام](Diagrams/Diagram-logIn.drawio)
  ![دیاگرام ورود](imgs/BL1-Login.png)
 
  دیاگرام سطح دسترسی
-  [دیاگرام سطح دسترسی](Diagrams/BR-CustumerRole.drawio)
+  [دیاگرام سطح دسترسی](Diagrams/Diagram-CustumerRole.drawio)
   ![دیاگرام نقش](imgs/BR-CustumerRole.png)
 
 [ERD Database](Diagrams/Authentication.drawio)
