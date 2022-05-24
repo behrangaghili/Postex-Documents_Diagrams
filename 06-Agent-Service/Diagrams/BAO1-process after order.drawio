@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="hY0A53FrUJ8Y6_xBmxyK" name="Page-1">
-        <mxGraphModel dx="458" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+        <mxGraphModel dx="820" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -58,7 +58,7 @@
                 <mxCell id="282" value="تحویل به شرکت پستی&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffffff;strokeColor=#2D7600;fillColor=#60a917;" parent="202" vertex="1">
                     <mxGeometry x="1457" y="130" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="244" value="Postex" style="swimlane;startSize=20;horizontal=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="201" vertex="1">
+                <mxCell id="244" value="Postex" style="swimlane;startSize=20;horizontal=0;" parent="201" vertex="1">
                     <mxGeometry x="20" y="200" width="2150" height="430" as="geometry"/>
                 </mxCell>
                 <mxCell id="321" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="244" source="204" target="319" edge="1">
