@@ -92,67 +92,113 @@
 
 ### مدل های ورودی توابع
 
-- Contract Items Model
+- Contract 
   - ContractId
     شناسه قرارداد
   - CustomerId
     شناسه مشتری
-  - RegistereContrctor
-    ثبت نام
-  - RegistereContrctorCost
-    درصد ثبتنام کننده
-  - PriningContrctorPrice
-   هزینه های پرینت
-  - AffiliateContrctor
-   پنل همکاری در فروش
-  - MarketingCommissionValue
-   درصد بازاریابی
-  - MarketingCommissionLeasing
-   درصد بازاریابی لیزینگ
-  - PackingContractor
-    قرارداد بسته بندی
-  - List<PackingItemForContractModel> PackingContractorItems
-    موارد موجود در قرارداد بسته بندی
-  - LeasingPercent
-    درصد لیزینگ
-  - ReturnRoofValue
-    حداکثر مقدار برگشتی
-  - DailyCrediteRoofValue
-   سقف اعتبار روزانه
-  - ShippingAcceptancePercentageValue
-   درصد قبول مرسوله
-  - CODPercent
-    درصد پرداخت در محل
+  - ContractRegistarId
+    ثبت نام کننده
+  - StartDate
+    تاریخ شروع قرارداد
+  - EndDate
+    تاریخ پایان قرارداد 
+  - RegisterDate
+    تاریخ ثبت نام 
+  - IsActive
+    فعال هست
+  - DeActive
+    غیر فعال است
 
-- Packing Item For Contract Model
-  - CartoonItemsName
-    نام ایتم بسته بندی
-  - CartoonItemsCost
-   هزینه بسته بندی
-  - CartoonItemsPrice
-   قیمت بسته بندی
-- startDate
-- EndDate
-- CustumerId
-- CantractRegistrarId
-- RegisterDate
-- IsActive
-- DeActive
-- ContractDitailsSell
-- ContractDitailsBuy
-- CntractItemPersent
-- ContractItemNumber
-- Courer
-- Contract
-- Leasing
-- sms natfication
-- leassing Precent
-- max percent
-- Packing Commission
-- Registeration Commission
-- Distributing commission
-- Collection Commission
-- leassing Commission
+- ContractItem
+  - ContractItemId
+    نوع قرارداد
+  - ContractId
+    شناسه قرارداد
+  - ContractItemTypeId
+    ویژگی پنل قررداد
+  - IsActive
+    فعال بودن قرارداد
+  - AddDate
+   اضافه کردن تاریخ
+  - DeActiveDate
+   تاریخ غیرفعال شدن
+  - DeActiveCustomer
+   تاریخ غیر فعال مشتری
+  - CorierId
+    شناسه سرویس دهده
+  - CityId
+   شناسه شهر
+  - InsuranceId
+   شناسه بیمه
+  - LeassingId
+   شناسه لیزینگ
+- ContractItemType
+  - ContractItemTypeName
+   نام مشخصات قرارداد
+- ContractItemDitail
+  - ContractItemPersent
+    درصد قرارداد
+  - PriningPaper
+   هزینه های پرینت
+  - ContractItemDitailesName
+   نام جزئیات قرارداد
+  - ContractCustumerId
+   شناسه قرارداد مشتری
+  - ContractItemDitailesSell
+    قیمت خرید
+  - ContractItemDitailesBuy
+   قیمت خرید 
+  - ContractItemId
+   شناسه ایتم قرارداد
+  - DeActiveDate
+   تاریخ غیر فعال شدن
+  - DeActiveCustomer
+    مشتری غیر فعال
+  - ContractItemNumber
+    شماره آیتم قرارداد
+  - Volume
+   حجم
+- Leassing
+  - LeassingId
+   شناسه لیزینگ
+  - LeassingAmount
+    نرخ تبدیل
+  - ReturnRate
+   نرخ بازگشت
+  - WithDrawRate
+    برخ برداشت
+  - DailyWithDrawRate
+  - سقف برداشت روزانه
+  - Active
+  فعال بودن
+  - DailyDepositeRate
+    نرخ واریز روزانه
+  - DailyDepositRateCeiling
+    سقف واریز روزانه
+  - Garenty
+   ضمانت
+  - GarentyDate
+  تاریخ ضمانت نامه
+- Insurance
+  - InsuranceId
+  - شناسه بیمه
+  - name
+  نام
+  - Formulas
+  فرمول
+- City
+  - CityId
+  شناسه شهر
+  - Name
+  نام
+  - Aria
+  منطقه
+- Address
+  - CityId
+  شناسه شهر
+  - PostalCode
+  کد پستی
 
 ---
 
