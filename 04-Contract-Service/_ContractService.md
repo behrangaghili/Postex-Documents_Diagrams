@@ -93,11 +93,11 @@
 ### مدل های ورودی توابع
 
 - Contract 
-  - ContractId
+  - Id
     شناسه قرارداد
   - CustomerId
     شناسه مشتری
-  - ContractRegistarId
+  - ContractregistrantId
     ثبت نام کننده
   - StartDate
     تاریخ شروع قرارداد
@@ -107,12 +107,12 @@
     تاریخ ثبت نام 
   - IsActive
     فعال هست
-  - DeActive
+ // - DeActive
     غیر فعال است
 
 - ContractItem
-  - ContractItemId
-    نوع قرارداد
+  - Id
+    شناسه
   - ContractId
     شناسه قرارداد
   - ContractItemTypeId
@@ -136,21 +136,21 @@
 - ContractItemType
   - ContractItemTypeName
    نام مشخصات قرارداد
-- ContractItemDitail
+- ContractItemDetail
   - ContractItemPersent
     درصد قرارداد
   - PriningPaper
    هزینه های پرینت
-  - ContractItemDitailesName
+  - ContractItemDetailesName
    نام جزئیات قرارداد
   - ContractCustumerId
    شناسه قرارداد مشتری
-  - ContractItemDitailesSell
+  - ContractItemDetailesSell
     قیمت خرید
-  - ContractItemDitailesBuy
+  - ContractItemDetailesBuy
    قیمت خرید 
   - ContractItemId
-   شناسه ایتم قرارداد
+   شناسه آیتم قرارداد
   - DeActiveDate
    تاریخ غیر فعال شدن
   - DeActiveCustomer
@@ -176,14 +176,14 @@
     نرخ واریز روزانه
   - DailyDepositRateCeiling
     سقف واریز روزانه
-  - Garenty
+  - guarantee
    ضمانت
-  - GarentyDate
+  - guarantee
   تاریخ ضمانت نامه
 - Insurance
   - InsuranceId
-  - شناسه بیمه
-  - name
+   شناسه بیمه
+  - Name
   نام
   - Formulas
   فرمول
@@ -192,7 +192,7 @@
   شناسه شهر
   - Name
   نام
-  - Aria
+  - Area
   منطقه
 - Address
   - CityId
