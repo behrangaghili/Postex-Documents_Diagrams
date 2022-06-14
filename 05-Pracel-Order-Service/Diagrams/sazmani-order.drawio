@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="q_1GzFXoEfmdgfm3SA6E" name="Page-1">
-        <mxGraphModel dx="1897" dy="1620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+        <mxGraphModel dx="732" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="Order" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;strokeWidth=4;shadow=0;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="110" y="92.5" width="2190" height="747.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="customer" style="swimlane;startSize=20;horizontal=0;" parent="2" vertex="1">
+                <mxCell id="13" value="customer" style="swimlane;startSize=20;horizontal=0;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="2" vertex="1">
                     <mxGeometry y="20" width="2190" height="292.5" as="geometry">
                         <mxRectangle x="20" width="1860" height="20" as="alternateBounds"/>
                     </mxGeometry>
@@ -160,10 +160,10 @@
                 <mxCell id="137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="13" source="138" target="140" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="Postex" style="swimlane;startSize=20;horizontal=0;" parent="2" vertex="1">
+                <mxCell id="40" value="Postex" style="swimlane;startSize=20;horizontal=0;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="2" vertex="1">
                     <mxGeometry y="312.5" width="2190" height="245" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="vendor" style="swimlane;startSize=20;horizontal=0;" parent="2" vertex="1">
+                <mxCell id="53" value="vendor" style="swimlane;startSize=20;horizontal=0;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="2" vertex="1">
                     <mxGeometry y="557.5" width="2190" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="143" value="اطلاعات نوع سرویس&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="53" vertex="1">

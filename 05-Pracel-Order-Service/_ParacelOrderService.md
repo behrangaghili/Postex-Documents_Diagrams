@@ -68,7 +68,7 @@
   - Description
   توضیحات سفارش
   - DeliveryStatus
-  وضعیت ارسال 
+  وضعیت ارسال
   - FinancialItemId
   شناسه آیتم های مالی
   - RelatedParcelId
@@ -92,15 +92,42 @@
   - ForceDoDate
   - MileType
   - AddressId
-- FinancialItem
+- ParcelDitails
   - Id
+  - ContractCustumerId
+  - ContractItemId
+  - ContractItemDitaisName
+  - ContractItemDitaisSell
+  - ContractItemDitaisBuy
+  - ContractItemPercent
+  - DeActiveDate
+  - DeactiveCustumer
+  - ContractItemNumber
+  - PrintPaper
+  - Volume
+  - InsuranceId
+  - LeassingId
   
 ---
 
 ## متدها
 
-- Creat Order
-- cancel Order
+- CreateOrder(OrderModel);
+- CreateParcel(ParcellModel);
+- PayOrder(Order);
+- RefundOrder(Order);
+
+- ChangeOrderStatus(OrderStatus);
+- CancelOrder(order);
+- CanelParcel();
+- CalcOrderPrice();
+- CalcParcelPrice();
+- CreateFinancialItem();
+
+- CreateMileInfo();
+- BuildMileInfo();
+- proccesmileInf();
+- BeginAffterOrder();
 
 ---
 
@@ -153,15 +180,32 @@
 
 #### ثبت سفارش خارجی 
 
-تمامی روند ثبت سفارش و ورود اطلاعات جهت سفارش بین المللی مانند ثبت سفارش های داخلی است ما این تفاوت که در آدرس گیرنده باید کشور گیرنده را سرچ و انتخاب کرد و اطلاعات گیرنده را حتی الامکان باید به صورت لاتین وارد نمود. در مرحله انتخاب نوع سرویس هم شرکت های خصوصی که ارسال به سایر کشورها را انجام می دهند 
-همانند ثبت سفارش داخلی ابتدا آدرس فرستنده را وارد می کنیم سپس وارد قسمت اطلاعات مرسوله می شویم 
+تمامی روند ثبت سفارش و ورود اطلاعات جهت سفارش بین المللی مانند ثبت سفارش های داخلی است ما این تفاوت که در آدرس گیرنده باید کشور گیرنده را سرچ و انتخاب کرد و اطلاعات گیرنده را حتی الامکان باید به صورت لاتین وارد نمود. در مرحله انتخاب نوع سرویس هم شرکت های خصوصی که ارسال به سایر کشورها را انجام می دهند
+همانند ثبت سفارش داخلی ابتدا آدرس فرستنده را وارد می کنیم سپس وارد قسمت اطلاعات مرسوله می شویم
 ![ ثبت سفارش خارجی](imgs/F%20order.PNG)
-در این مرحله توجه داشته باشید بار گزاری تصاویر مرسولات الزامی می باشد 
- در مرحله بعد باید انتخاب آدرس گیرنده را تکمیل کنید 
+در این مرحله توجه داشته باشید بار گزاری تصاویر مرسولات الزامی می باشد
+ در مرحله بعد باید انتخاب آدرس گیرنده را تکمیل کنید
  ![آدرس گیرنده](imgs/receiver%20address%20FO.PNG)
- و بعد از آن نوبت یه انتخاب سرویس دهده پستی می رسد 
+ و بعد از آن نوبت یه انتخاب سرویس دهده پستی می رسد
 
- ![ سرویس دهده](imgs/)
+ ![ سرویس دهده](imgs/F-corier.png)
+بعد از انتخاب سرویس دهنده و ثبت سفارش تیم پشتیبانی با شرکت ارسال کننده تماس میگیرد و جزئیات سفارش را بیان می کند و شرکت در صورت قیمت نهایی را اعمال میکند که این قیمت به صورت پیامک به مشتری ارسال می شود و با پرداخت مبلغ  سفارش ثبت و وضعیت آن تکمیل می شود
+
+#### کنسلی سفارش
+
+فرایند کنسل کردن کردن سفارش به چند صورت انجام می شود
+1- سفارشاتی که هزینه آن ها پرداخت نشده و وضعیت آن ها معلق است 
+2-  سفارشاتی که هزینه های آن ها پرداخت شده  ولی جمع آوری انجام نشده است
+3- سفارشاتی که هزینه ی آن ها پرداخت شده و  جمع آوری انجام شده است 
+در مورد اول کنسلی انجام می شود و هزینه پرداخت نشده که برگردد 
+![کنسلی سفارش](imgs/cancle%20order%20without%20barcod.PNG)
+
+در مورد دوم هزینه بارکد در صورتی که صادر شده باشد کسر می شود و مابقی بازگردانده می شود
+در مورد سوم هزینه بارکد و هزینه جمع آوری کسر می شود و ما بقی عودت داده میشود
+در حالتی که مرسوله تحوویل کوریر پستی ذلذه شذه باشد امکان کنسلی سفارش وجود ندارد
+
+![کنسلی سفارش](imgs/cancel%20order%20form.PNG)
+![کنسلی سفارش](imgs/cancel%20order%20form2.PNG)
 
 
 
@@ -172,3 +216,27 @@
 
 ![دیاگرام تولید بارکد](imgs/Barcode-reproduction.png)
 [دیاگرام تولید بارکد](Diagrams/Barcode-reproduction.drawio)
+
+![دیاگرام ثبت سفارش](imgs/inner-orderdagram.png)
+[دیاگرام ثبت سفارش داخلی](Diagrams/inner-order.drawio)
+
+![دیاگرام ثبت سفارش داخلی پسکرایه](imgs/innerCod-orderDiagram.png)
+[دیاگرام ثبت سفارش داخلی پسکرایه](Diagrams/innerCod-order.drawio)
+
+![دیاگرام ثبت سفارش داخلی پسکرایه](imgs/cod-orderDiagram.png)
+[دیاگرام ثبت سفارش داخلی پسکرایه](Diagrams/cod-order.drawio)
+
+![ دیاگرام ثبت سفارش سازمانی](imgs/sazmani-orderDiagram.png)
+[دیاگرام ثبت سفارش سازمانی](Diagrams/sazmani-order.drawio)
+
+![ دیاگرام ثبت سفارش انبوه](imgs/anboh-order-diagram.png)
+[دیاگرام ثبت سفارش انبوه](Diagrams/anboh-order.drawio)
+
+![ دیاگرام ثبت سفارش خارجی](imgs/Foreign-order-diagram.png)
+[دیاگرام ثبت سفارش خارجی](Diagrams/Foreign-order.drawio)
+
+![دیاگرام کنسلی](imgs/cancel%20orderDiagram.png)
+[دیاگرام کنسلی](Diagrams/cancel%20order.drawio)
+
+![دیاگرام کنسلی پس کرایه](imgs/cancel-cod-order-diagram.png)
+[دیاگرام کنسلی پس کرایه](Diagrams/cancel%20cod%20order.drawio)
