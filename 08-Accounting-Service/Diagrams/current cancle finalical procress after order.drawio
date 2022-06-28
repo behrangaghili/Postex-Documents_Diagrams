@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="5A1bJ8k7loEzjgKSIjJu" name="Page-1">
-        <mxGraphModel dx="664" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+        <mxGraphModel dx="432" dy="324" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="27" value=" " style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=13;" parent="1" vertex="1">
+                <mxCell id="27" value=" " style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;fillColor=default;strokeColor=#2D7600;fontColor=#ffffff;fontSize=13;" parent="1" vertex="1">
                     <mxGeometry x="83" y="80" width="1800" height="640" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="Postex" style="swimlane;startSize=20;horizontal=0;" parent="27" vertex="1">
@@ -70,8 +70,8 @@
                 <mxCell id="83" value="" style="edgeStyle=elbowEdgeStyle;html=1;" parent="37" source="78" target="82" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 13px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;هزینه بارکد کسر میشود&amp;nbsp;&lt;/span&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#2D7600;fillColor=#60a917;" parent="37" vertex="1">
-                    <mxGeometry x="967" y="65" width="120" height="60" as="geometry"/>
+                <mxCell id="78" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;هزینه بارکد کسر میشود&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#2D7600;fillColor=#60a917;" parent="37" vertex="1">
+                    <mxGeometry x="967" y="65" width="136" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="109" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="37" source="82" target="108" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
