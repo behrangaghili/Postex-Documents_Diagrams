@@ -1,172 +1,133 @@
 <mxfile host="65bd71144e">
     <diagram id="9_zeW4CJBt5na4371-h7" name="Page-1">
-        <mxGraphModel dx="2160" dy="1620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+        <mxGraphModel dx="1060" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="54" value="" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;fontSize=20;" vertex="1" parent="1">
+                <mxCell id="54" value="" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="39" y="43" width="1592" height="2200" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="Customer" style="swimlane;startSize=57;fontSize=40;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="54">
+                <mxCell id="55" value="Customer" style="swimlane;startSize=57;fontSize=40;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="54" vertex="1">
                     <mxGeometry x="20" width="428" height="2200" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=40;" edge="1" parent="55" source="58" target="59">
+                <mxCell id="60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=40;" parent="55" source="58" target="59" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="شروع" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=40;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="55">
+                <mxCell id="58" value="شروع" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=40;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="55" vertex="1">
                     <mxGeometry x="155" y="89" width="118" height="118" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="&lt;font style=&quot;font-size: 20px&quot;&gt;پرداخت موفقیت آمیز بوده&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=40;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="55">
+                <mxCell id="59" value="&lt;font style=&quot;font-size: 20px&quot;&gt;پرداخت موفقیت آمیز بوده&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=40;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="55" vertex="1">
                     <mxGeometry x="146.5" y="257" width="135" height="115" as="geometry"/>
                 </mxCell>
-                <mxCell id="112" value="خیر" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="55">
+                <mxCell id="112" value="خیر" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="55" vertex="1">
                     <mxGeometry x="230" y="382" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="Postex" style="swimlane;startSize=57;fontSize=40;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="54">
+                <mxCell id="56" value="Postex" style="swimlane;startSize=57;fontSize=40;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="54" vertex="1">
                     <mxGeometry x="448" width="923" height="2200" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=20;" edge="1" parent="56" source="63" target="68">
+                <mxCell id="69" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=20;" parent="56" source="63" target="68" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="بررسی کانترکت سرویس" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontSize=20;" vertex="1" parent="56">
+                <mxCell id="63" value="بررسی کانترکت سرویس" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontSize=20;" parent="56" vertex="1">
                     <mxGeometry x="150" y="107" width="127" height="91.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=20;" edge="1" parent="56" source="68" target="70">
+                <mxCell id="71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=20;" parent="56" source="68" target="70" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="68" target="96">
+                <mxCell id="97" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" parent="56" source="68" target="96" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="&lt;br&gt;ثبت داخل اکانت نمایده بوده" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="56">
+                <mxCell id="68" value="&lt;br&gt;ثبت داخل اکانت نمایده بوده" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="56" vertex="1">
                     <mxGeometry x="348" y="84" width="153" height="137.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="70" target="72">
+                <mxCell id="73" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" parent="56" source="70" target="72" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="&lt;br&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;مشخص شدن نماینده&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
+                <mxCell id="70" value="&lt;br&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;مشخص شدن نماینده&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="56" vertex="1">
                     <mxGeometry x="319.75" y="269" width="209.5" height="95" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="72" target="74">
+                <mxCell id="75" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" parent="56" source="72" target="74" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;br&gt;محاسبه درصد نماینده&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
+                <mxCell id="72" value="&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;br&gt;محاسبه درصد نماینده&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="56" vertex="1">
                     <mxGeometry x="319.75" y="417" width="209.5" height="95" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="74" target="76">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="77" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="56" source="74" target="78" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="424.29999999999995" y="735.045081967213" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="74" value="&lt;br&gt;محاسبه هزینه های جمع آوری" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
+                <mxCell id="74" value="&lt;br&gt;محاسبه هزینه های جمع آوری" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="56" vertex="1">
                     <mxGeometry x="319.75" y="579" width="209.5" height="95" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="76" target="78">
+                <mxCell id="116" value="" style="edgeStyle=none;html=1;" edge="1" parent="56" source="78" target="80">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=25;" edge="1" parent="56" source="76" target="82">
+                <mxCell id="78" value="&lt;br&gt;محاسبه درصد برای بسته بندی" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="56" vertex="1">
+                    <mxGeometry x="323.25" y="777" width="204.5" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" parent="56" source="80" target="85" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" parent="56" source="85" target="87" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="&lt;br&gt;محاسبه هزینه پیامک" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="56" vertex="1">
+                    <mxGeometry x="324.75" y="1089" width="204.5" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" parent="56" source="87" target="91" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="588" y="804"/>
-                            <mxPoint x="588" y="1116"/>
-                        </Array>
+                        <mxPoint x="419" y="1627" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="76" value="&lt;br&gt;آیا نیاز به بسته بندی دارد" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
-                    <mxGeometry x="348" y="735" width="152.5" height="137.5" as="geometry"/>
+                <mxCell id="87" value="&lt;br&gt;محاسبه هزینه بیمه&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="56" vertex="1">
+                    <mxGeometry x="324.75" y="1225" width="204.5" height="87" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="78" target="82">
+                <mxCell id="94" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=25;" parent="56" source="91" target="93" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="&lt;br&gt;محاسبه درصد برای بسته بندی" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
-                    <mxGeometry x="322.25" y="915" width="204.5" height="87" as="geometry"/>
+                <mxCell id="91" value="&lt;br&gt;مشخص کردن فرد و درصد آن" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="56" vertex="1">
+                    <mxGeometry x="324.75" y="1548" width="209.13" height="78" as="geometry"/>
                 </mxCell>
-                <mxCell id="86" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="80" target="85">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="80" value="&lt;br&gt;محاسبه درصد چاپ فاکتور" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
-                    <mxGeometry x="317" y="1244" width="204.5" height="87" as="geometry"/>
-                </mxCell>
-                <mxCell id="84" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="82" target="80">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="103" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=25;" edge="1" parent="56" source="82" target="85">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="203" y="1116"/>
-                            <mxPoint x="203" y="1409"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="82" value="&lt;br&gt;نیاز به چاپ فاکتور دارد" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
-                    <mxGeometry x="358.87" y="1059" width="133.75" height="113.5" as="geometry"/>
-                </mxCell>
-                <mxCell id="88" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="85" target="87">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="85" value="&lt;br&gt;محاسبه هزینه پیامک" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
-                    <mxGeometry x="317" y="1366" width="204.5" height="87" as="geometry"/>
-                </mxCell>
-                <mxCell id="90" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="87" target="89">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="87" value="&lt;br&gt;محاسبه هزینه بیمه&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
-                    <mxGeometry x="317" y="1496" width="204.5" height="87" as="geometry"/>
-                </mxCell>
-                <mxCell id="92" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="89" target="91">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="89" value="&lt;br&gt;سفارش دارای&lt;br&gt;&amp;nbsp;افلیت هستش" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
-                    <mxGeometry x="345.88" y="1620" width="146.74" height="145" as="geometry"/>
-                </mxCell>
-                <mxCell id="94" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=25;" edge="1" parent="56" source="91" target="93">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="91" value="&lt;br&gt;مشخص کردن فرد و درصد آن" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
-                    <mxGeometry x="314.69" y="1809" width="209.13" height="78" as="geometry"/>
-                </mxCell>
-                <mxCell id="93" value="پایان" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=25;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="56">
+                <mxCell id="93" value="پایان" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=25;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="56" vertex="1">
                     <mxGeometry x="758" y="2024" width="100" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" edge="1" parent="56" source="96" target="99">
+                <mxCell id="100" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=25;" parent="56" source="96" target="99" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="مشخص کردن خدمات نمایندگی" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
+                <mxCell id="96" value="مشخص کردن خدمات نمایندگی" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="56" vertex="1">
                     <mxGeometry x="712" y="117.13" width="156.5" height="71.25" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" value="بله" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="56">
+                <mxCell id="98" value="بله" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="56" vertex="1">
                     <mxGeometry x="568" y="113" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=25;" edge="1" parent="56" source="99" target="93">
+                <mxCell id="114" value="" style="edgeStyle=none;html=1;" parent="56" source="99" target="113" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" value="پرداخت هزینه به نماینده" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="56">
+                <mxCell id="99" value="پرداخت درصد نمایندگی به نماینده" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="56" vertex="1">
                     <mxGeometry x="708.88" y="243" width="162.75" height="71.01" as="geometry"/>
                 </mxCell>
-                <mxCell id="104" value="بله" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="56">
-                    <mxGeometry x="356" y="1188" width="60" height="30" as="geometry"/>
+                <mxCell id="113" value="پرداخت حق نمایندگی" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="56" vertex="1">
+                    <mxGeometry x="708.88" y="394.01" width="162.75" height="71.01" as="geometry"/>
                 </mxCell>
-                <mxCell id="105" value="خیر" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="56">
-                    <mxGeometry x="288" y="1081" width="60" height="30" as="geometry"/>
+                <mxCell id="80" value="&lt;br&gt;محاسبه درصد چاپ فاکتور" style="whiteSpace=wrap;html=1;fontSize=20;verticalAlign=top;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="56" vertex="1">
+                    <mxGeometry x="324.75" y="934" width="204.5" height="87" as="geometry"/>
                 </mxCell>
-                <mxCell id="107" value="بله" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="56">
-                    <mxGeometry x="428" y="1016" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="57" value="vendor" style="swimlane;startSize=56;fontSize=40;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="54">
+                <mxCell id="57" value="vendor" style="swimlane;startSize=56;fontSize=40;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="54" vertex="1">
                     <mxGeometry x="1371" width="221" height="2200" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="54" source="59" target="63">
+                <mxCell id="62" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="54" source="59" target="63" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="703" y="314.57142857142867" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.001;entryY=0.739;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=25;" edge="1" parent="54" source="59" target="93">
+                <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.001;entryY=0.739;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=25;" parent="54" source="59" target="93" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="خیر" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+                <mxCell id="95" value="خیر" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="1" vertex="1">
                     <mxGeometry x="846" y="245" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="106" value="خیر" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
-                    <mxGeometry x="1033" y="803" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="108" value="بله" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+                <mxCell id="108" value="بله" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="1" vertex="1">
                     <mxGeometry x="390" y="327" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
