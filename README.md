@@ -12,6 +12,8 @@
 
 ### [فرایند کلی بعد از ثبت سفارش](AfterOrder.drawio)
 
+## معماری پروژه
+
 ## سرویس های اصلی مورد استفاده در سیستم
 
 ### ورود و ثبت نام [(Authentication and Roles)](01-Authentication-And-Role/_AuthenticationAndRole.md)
@@ -23,11 +25,12 @@
 ### تعریف سرویس ها [Product servise](02-Product-service/2-Product-servise/_ProductServise.md)
 
 - [تعریف سرویس](02-Product-service/2-Product-servise/_ProductServise.md#Product-Service)
-- [تخفیفات(Discount)](02-Product-service/2-Product-servise/_ProductServise.md#Discount-Service)
-- [همکاری در فروش(Affiliate)](02-Product-service/2-Product-servise/_ProductServise.md#Affiliate-service)
+
 - [قیمت سرویس ها(price service)]((02-Product-service/2-Product-servise/_ProductServise.md#Pricing-Service))
 
 ### قرارداد مشتری [(contract service )](04-Contract-Service/_ContractService.md)
+- [تخفیفات(Discount)](02-Product-service/2-Product-servise/_ProductServise.md#Discount-Service)
+- [همکاری در فروش(Affiliate)](02-Product-service/2-Product-servise/_ProductServise.md#Affiliate-service)
 
 ### ثبت سفارش [(Parcel-order service )](05-Pracel-Order-Service/_ParacelOrderService.md)
 
@@ -60,15 +63,9 @@
 
 ### اعلانات [(Notification Service)](11-Notification-Service/_NotificationService.md)
 
-### پشتیبانی گیری [(Backup)](12-BackUp/_Backup.md)
-
-### انبار داری [(warehouse)](13-Warehouse/_Warehouse.md)
-
 ### پرداخت ها [(payment service)](14-Peyment-Service/_PeymentService.md)
 
 ### محدوده جغرافیایی [(Address service)](15-Address-Service/_AddressService.md)
-
-### امنیت [(security service - common service)](16-Security-Service(Common-Service)/_SecurityService.md)
 
 ### لاگ [(Logs)](17-Log/_Log.md)
 
