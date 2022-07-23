@@ -151,3 +151,7 @@
 
 [درخواست برداشت از کیف پول](Diagrams/Liquidation-wallet.drawio)
 ![درخواست برداشت از کیف پول](imgs/Liquidation-wallet.png)
+
+
+[تسویه پسکرایه](Diagrams/CODPlan.drawio)
+![تسویه پسکرایه](imgs/CODPlan.png)

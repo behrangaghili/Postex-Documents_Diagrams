@@ -14,6 +14,10 @@
 
 ## معماری پروژه
 
+## استقرار
+
+## تست
+
 ## سرویس های اصلی مورد استفاده در سیستم
 
 ### ورود و ثبت نام [(Authentication and Roles)](01-Authentication-And-Role/_AuthenticationAndRole.md)
