@@ -82,6 +82,13 @@
 
 ## متدها
 
+- RegisterTranscation(ParcelId?,PocketTypeId,Amount,Date,Description,costumerId,ConteractId?,TransactionNumber?)
+ ثبت یک تراکنش توسط سرویس های دیگه میتواند فراخوانی شود
+- UpdateWalletAmount(CustomerId,Amount)
+  بروزرسانی کیف پول برای کاهش و افزایش مقدار کیف پول 
+- GetTransactionList(CustomerId,StartDate,EndDate)
+  برای ویو است لیستی ار تراکنش هارا نمایش می دهد
+
 ---
 
 ## فرایند ها
