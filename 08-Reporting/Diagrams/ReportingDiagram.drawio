@@ -1,0 +1,51 @@
+<mxfile host="65bd71144e">
+    <diagram id="H_5v4_dxa1Rt6mgXn0Bk" name="Page-1">
+        <mxGraphModel dx="968" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="order" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="83" y="80" width="2170" height="860" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Customer" style="swimlane;startSize=49;horizontal=0;fillColor=default;" parent="2" vertex="1">
+                    <mxGeometry x="20" width="2150" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="&lt;font style=&quot;font-size: 20px&quot;&gt;نمایش در پنل&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="3" vertex="1">
+                    <mxGeometry x="698" y="138" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;font style=&quot;font-size: 25px&quot;&gt;پایان&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="3" vertex="1">
+                    <mxGeometry x="1881" y="118" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="3" source="78" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1591" y="168" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 25px&quot;&gt;شروع&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="3" vertex="1">
+                    <mxGeometry x="82" y="135" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="&lt;font style=&quot;font-size: 20px&quot;&gt;درخواست گزارش&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="3" vertex="1">
+                    <mxGeometry x="304" y="157.5" width="134" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="3" source="4" target="74" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Postex" style="swimlane;startSize=49;horizontal=0;" parent="2" vertex="1">
+                    <mxGeometry x="20" y="370" width="2150" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="&lt;font style=&quot;font-size: 20px&quot;&gt;ایجاد گزارش به طور اتوماتیک&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="5" vertex="1">
+                    <mxGeometry x="546" y="73" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Vendor" style="swimlane;startSize=50;horizontal=0;" parent="2" vertex="1">
+                    <mxGeometry x="20" y="590" width="2150" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=20;" parent="2" source="76" target="78" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="2" source="74" target="76" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
