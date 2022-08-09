@@ -8,7 +8,7 @@
 
 ### [فرایند کلی ثبت نام](BeforeOrder.drawio)
 
-### [ فرایند کلی ثبت سفارش ](Order.drawio)
+### [فرایند کلی ثبت سفارش](Order.drawio)
 
 ### [فرایند کلی بعد از ثبت سفارش](AfterOrder.drawio)
 
@@ -61,17 +61,15 @@
 - فرایند مالی پرداخت در محل
 - فرایند مالی نماینده
 
-### گیت وی [(Geteway)](09-Geteway/_Geteway.md)
-
 ### گزارشات [(Reporting)](10-Reporting/_Reporting.md)
 
 ### اعلانات [(Notification Service)](11-Notification-Service/_NotificationService.md)
 
 ### پرداخت ها [(payment service)](14-Peyment-Service/_PeymentService.md)
 
-### محدوده جغرافیایی [(Address service)](15-Address-Service/_AddressService.md)
-
 ### لاگ [(Logs)](17-Log/_Log.md)
+
+### طراحی [(UI)](UI/Ui.md)
 
 [لیست سرویس ها](https://docs.google.com/spreadsheets/d/1WJbg2b9-I040qbG7qJXNGT5llJ1ACH19/edit?usp=sharing&ouid=117990549631970722186&rtpof=true&sd=true)
 
