@@ -22,48 +22,93 @@
 
 ### ورود و ثبت نام [(Authentication and Roles)](01-Authentication-And-Role/_AuthenticationAndRole.md)
 
-- [ثبت نام](./01-Authentication-and-Roles/_AuthenticationAndRole.md#ثبت-نام)
-- [ورود](./01-Authentication-and-Roles/_AuthenticationAndRole.md#ورود)
-- [دستری های های مشتری](./01-Authentication-and-Roles/_AuthenticationAndRole.md#دسترسی-cod)
+- گروه ها (Group)
+- سطوح دسترسی (Role)
+- افراد (User)
+- سطوح دسترسی (Permission)
 
 ### تعریف سرویس ها [Product servise](02-Product-service/2-Product-servise/_ProductServise.md)
 
-- [تعریف سرویس](02-Product-service/2-Product-servise/_ProductServise.md#Product-Service)
+#### قیمت های آفلاین Gatwaye Price
 
-- [قیمت سرویس ها(price service)]((02-Product-service/2-Product-servise/_ProductServise.md#Pricing-Service))
+- تعریف محصول (Define Product)
+- تعریف صفات محصولات (Define Product Attr)
+- تعریف تخفیفات (Define Discont)
+  
+#### قیمت ها ( Price Service)
+
+- ValidateInputbyContract
+- دریافت قیمت (Get Price)
+- محاسبه قیمت (Calc Price)
+- لاگ های قیمت (Log Price)
+
+#### سرویس رهگیری (Tracking Service)
+
+- رهگیری انبوه (Bulk Tracking)
+- رهگیری تکی (Single Tracking)
+
+#### سفارشات انبوه (Bulk Service)
+
+- سفارشات انبوه (Bulk Service)
 
 ### قرارداد مشتری [(contract service )](04-Contract-Service/_ContractService.md)
-- [تخفیفات(Discount)](02-Product-service/2-Product-servise/_ProductServise.md#Discount-Service)
-- [همکاری در فروش(Affiliate)](02-Product-service/2-Product-servise/_ProductServise.md#Affiliate-service)
+
+- تعریف کانترکت (Add Contract)
+- اصلاح قرارداد (Edit Cotract)
+- فعال کردن قرارداد (Active Contract)
+- غیر فعال کردن قرارداد (Disable Contract)
+- مشتری قرارداد (CustomerContract)
+- قرارداد پیش فرض (General Contract)
 
 ### ثبت سفارش [(Parcel-order service )](05-Pracel-Order-Service/_ParacelOrderService.md)
 
-- ثبت سفارش داخلی
-- ثبت سفارش پرداخت در محل
-- ثبت سفارش انبوه
-- ثبت سفارش سازمانی
-- پرداخت امن
-- ثبت سفارش خارجی
-- سرویس های انبوه (bulk service)
-- سیستم های ورودی (I/O)
+- ساخت سفارش (Creat Parcel)
+- تغییر وضعیت سفارش (Parcel change status)
+- تنظیمات سفارش (parcel seting)
+- محاسبه هزینه سفارش (Calculate Parsel Prise)
+- دریافت بارکد (Get Postal barcode)
+- امکان ثیت سفارش با اکسل (ExcelService)
+- امکان تعریف بسته بندی (Shipment Bundeling)
+- مشخص کردن شماره سفارش (Set parcel number)
 
 ### مدیریت سفارشات [(Agent service)](06-Agent-Service/_AgentService.md)
 
-- کنسلی سفارش داخلی
-- کنسلی سفارش پرداخت در محل
-- ارجاع بار به نماینده
+- ارجاع بار به نماینده (AssignToAgent)
+- ارجاع بار به کوریر (AssignToBycer)
+- مدیریت حمل و نقل (ManageShipment)
+- مدیریت سفارش اضافه کردن اصلاح کردن و کنسل کردن (Add,Edit,CancelShipment)
+- برچسب بر روی محصولات (Labeling)
+- بسته بندی (Packaging)
 
 ### تیکت [(Ticketing)](07-Ticketing/_Ticketing.md)
 
+- Ticket CRUD
+- پیگیری تیکت (Ticket Follow up)
+
 ### فرایند های مالی [(Accounting service)](08-Accounting-Service/_AccountingService.md)
 
-- فرایند مالی بعد از ثبت سفارش
-- فرایند مالی پرداخت در محل
-- فرایند مالی نماینده
+- تسویه حساب (Cashout)
+- کیف پول (Wallet)
+- Refound
+- Financial promotion
+- Gifts
 
 ### گزارشات [(Reporting)](10-Reporting/_Reporting.md)
 
+- نمایش گزارشات (Show Reports)
+- سفارشی کردن گزارشات (Customize Reports)
+- چاپ گزارشات (Print Reports)
+- ساخت صف (Make Queue)
+- ساخت خروجی اکسل و پی دی اف ( Create Invoice)
+- ساخت گزارشات به صورت افلاین (Create Offline Reports)
+- یکی کردذن گزارشات (Merg Reports)
+
 ### اعلانات [(Notification Service)](11-Notification-Service/_NotificationService.md)
+
+- Connect to SMS Services
+- Connect To Email Services
+- Application Push Notification
+- social media web services
 
 ### پرداخت ها [(payment service)](14-Peyment-Service/_PeymentService.md)
 
