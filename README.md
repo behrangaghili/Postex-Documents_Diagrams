@@ -105,14 +105,24 @@
 
 ### اعلانات [(Notification Service)](11-Notification-Service/_NotificationService.md)
 
-- Connect to SMS Services
-- Connect To Email Services
-- Application Push Notification
-- social media web services
+- اتصال به سرویس پیامک(Connect to SMS Services)
+- اتصال به سرویس ایمیل (Connect To Email Services)
+- پوش نوتیفیکیشن (Application Push Notification)
+- وب سرویس های شبکه های اجتماعی (social media web services)
 
 ### پرداخت ها [(payment service)](14-Peyment-Service/_PeymentService.md)
 
+- پرداخت هزینه سفارش (PayForOrder)
+- refound
+- Online Banks  gateways
+
+
 ### لاگ [(Logs)](17-Log/_Log.md)
+
+- لاگ های سگانه ThirdPartyLoging Servic
+- لاگ های همیگی (always)
+- لاگ های موردی  (percase)
+- لاگ های محیط توسعه(Environment)
 
 ### طراحی [(UI)](UI/Ui.md)
 
