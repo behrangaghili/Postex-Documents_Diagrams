@@ -21,23 +21,23 @@ vertical architecture
 
 EF core + dapper
 
-## gateway
+## GateWay
 
  oscillat
 
-## database
+## Database
 
  sql server sunredist
 
-## report
+## Report
 
 - grafana
 - elastic
 
-## test
+## Test
 
  n unit
 
-## log
+## Log
 
  seriLog
