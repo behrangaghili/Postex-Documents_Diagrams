@@ -14,9 +14,9 @@
 - [فرایند کلی ثبت سفارش](00-InfraStructure/00-General-Process/Order.drawio)
 - [فرایند کلی بعد از ثبت سفارش](00-InfraStructure/00-General-Process/AfterOrder.drawio)
 
-### استقرار[(Estabish)](00-InfraStructure/00-Establishment/Establishment.md)
+### استقرار [(Staging)](00-InfraStructure/00-Establishment/Establishment.md)
 
-### تست [(Test)](00-InfraStructure/00-Test/Test.md)
+### تست و تولید [(Test - Production)](00-InfraStructure/00-Test/Test.md)
 
 ## ورود و ثبت نام [(Authentication and Roles)](01-Authentication-And-Role/_AuthenticationAndRole.md)
 
