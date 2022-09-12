@@ -10,10 +10,11 @@
     - [Bulk Service](#bulk-service)
     - [Price Service](#price-service)
     - [Tracking Service](#tracking-service)
-    - [نیازمندی ها و قواعد کلی پروداکت سرویس](#نیازمندی-ها-و-قواعد-کلی-پروداکت-سرویس)
-    - [قواعد کسب و کار برای مدیریت پروداکت](#قواعد-کسب-و-کار-برای-مدیریت-پروداکت)
+    - [نیازمندی ها پروداکت سرویس](#نیازمندی-ها-پروداکت-سرویس)
+    - [قواعد کسب و کار برای سرویس پروداکت](#قواعد-کسب-و-کار-برای-سرویس-پروداکت)
   - [موجودیت ها](#موجودیت-ها)
     - [Courier](#courier)
+    - [CourierZone](#courierzone)
   - [Methods](#methods)
   - [فرایند ها](#فرایند-ها)
   - [دیاگرام ها](#دیاگرام-ها)
@@ -186,34 +187,254 @@
 
 ### Courier
 
-- Internatioal Bluesky
-- Internatioal PDE
-- InternatioalPost
-- Internatioal Chapar
-- Domestic Post
-- Domestic Persia
-- Domestic Chapar
-- Domestic kalaresan
-- Domestic Tipax
-- Domestic Mahex
-- Domestic Yarbox
-- Domestic Aramex
-- Delivery Peykhub
-- Delivery link
-- Delivery Tarof
-- Delivery Tinex
-- Delivery Speed
-- Connect to PishroPost
+- Id
+ شناسه 
+- Name
+  نام کوریر
+- ForeignPost
+  سرویس داخلی دارد یا خیر
+- DomesticPost
+  سرویس بین شهری دارد یا خیر
+- HasCollection
+  جمع آوری دارد یا خیر
+- HasDistribution
+  سیستم توزیع دارد یا خیر
+- BetweenCity
+  ارسال بین شهری دارد یا خیر
+- InnerCity
+  ارسال درون شهری دارد یا خیر
+- IsActive
+  فعال می باشد یا خیر
 - SLA
-- Api
-- COD
-- Courer Discount
-- Courer Zone
-- Courer Limit
-- weight
-- Volume
-- Status
+  دارای SLA هست یا خیر مثلا سیستم ملی پست دارای پست پیشتاژ ، سفارشی می باشد 
+- Parcel
+  امکان ثبت سفارش دارد 
+- Document
+  ارسال نامه انجام می دهد ؟
+- HasApi
+  ای پی آی دارد یا خیر 
+- CodPeyment
+  پرداخت در محل دارد یا خیر
+- NeedLatLong
+  نیاز به طول و عرض جغرافایی
+- Fragile
+  ارسال مرسولات شکستنی را قبول می کند
+- FreeShipping
+- PostPaid
+  پرداخت
+- CourierDiscount
+  تخفیف کوریر ها
+- CompanyId
+  شناسه نام کمپانی
+- Heavy
+  حمل سنگین دارد یا خیر
 
+### company
+
+- id
+  شناسه
+- Name
+  نام 
+
+### CourierLimit
+
+- id
+  شناسه کوریر
+- Name
+  نام کوریر
+در این قسمت ما محدودیت هایی از جمله ابعادی ، وزن ، بسته بندی محدودیت توزیع و محدویت جمع آوری ،حد بالا و حد پایین ، محدودیت تعداد ارسال و آواتار را تعریف می کنید و در جدول بعدی به هر کدام از این محدودیت ها مقدار می دهیم
+در محدویت وزنی شرکت ملی پست حد پایین 30 گرم و حد بالا 30 کیلوگرم می باشد
+
+### CourierLimitValue
+
+- id
+  شناسه 
+- CourierId
+  شناسه کوریر
+- CourierLimitId
+  شناسه کوریر
+- LowerLimit
+  حد پایین
+- UpperLimit
+  حد بالا
+- True/false
+  دارد یا ندارد
+
+### CourierZoneSLA
+
+- id
+  شناسه 
+- CourierId
+  شناسه کوریر
+- stateId
+  شناسه استان مرکز
+- CityToId
+  شناسه شهر مبدا
+- CityFromId
+  شناسه شهر مقصد
+- ZoneId
+  شناسه جدول زون ها شامل همجوار و غیر همجوار مراکز استان 
+- SLAId
+  شناسه SLA
+
+### CourierZonePriceSLA
+
+- id
+  شناسه
+- Courier id
+  شناسه کوریر 
+- SellPrice
+  قیمت فروش خدمات
+- BuyPrise
+  قیمت خرید خدمات
+- VolumeId
+  شناسه ابعاد مختلف در یک سرویس
+- weighti
+  شناسه وزن مخلف در یک سرویس
+
+### ZoneOffline
+
+- id
+  شناسه منطقه
+- Name
+ نام منطقه 
+
+### CourierCity
+
+- id
+  شناسه
+- CourierId
+  شناسه کوریر
+- CityFromId
+  شناسه شهر فرستنده
+- CityToId
+  شناسه شهر گیرنده
+- HasCollection
+  در آن منقطه جمع آوری دارد 
+- HasDistribution
+  در آن منتطقه توزیع دارد یا خیر
+(فرق این مورد با موردی که در جدول کوریر آمده است این است که آن به صورت کلی می باشد ولی این مورد به صورت کاستومایز شده بر اساس شهر میگوید که کویر جمع آوری و بتوزیع دارد یا خیر)
+
+### City
+
+- id
+  شناسه 
+- stateId
+  شناسه استان
+- Name
+  نام شهر
+- Code
+  کد شهر که به صورت سه حرفی مشخص می کنیم مانند تهران که مینویسیم teh
+- EnglishName
+  نام انگلیسی شهر
+
+### State
+
+- id
+  شناسه
+- Name
+  نام
+- Code
+  کد استان
+- EnglishName
+  نام انگلیسی استان
+
+### CourierStatusMapping
+
+- id
+  شناسه
+- CourierId
+  شناسه کوریر
+- StatusId
+  شناسه وضعیت مرسوله
+- Code
+  کد مرسوله 
+- Description
+  توضیحات
+
+### Status
+
+- Id
+  شناسه
+- Name
+  نام
+- Description
+  توضیحات
+- Order
+  شماره سفارش
+- Code
+  کد سفارش
+- Type
+  نوع سفارش
+
+### CourierCityMapping
+
+- id
+  شناسه
+- courierId
+  شناسه کوریر
+- CityId
+  شناسه شهر
+- Code
+  کد شهر که توافق بین کوریر ها می باشد
+- MapedCode
+  یکسان سازی کد شهر ها
+
+### CODOffline
+
+- id
+  شناسه
+- Name
+  نام
+- Formulas
+  فرمول پرداخت محل کوریر ها
+
+### CourierCOD
+
+- id
+  شناسه
+- CourierId
+  شناسه کوریر 
+- CODId
+  شناسه پرداخت در محل
+
+### CourierInsurance
+
+- Id
+  شناسه
+- CourierId
+  شناسه کوریر ها
+- InsuranseId
+  شناسه بیمه
+
+### InsuranceOffline
+
+- id
+  شناسه
+- Name
+  نام 
+- Formulas
+  فرمول بیمه کوریر ها
+
+### Country
+
+- id
+  شناسه
+- Name
+  نام کشور
+- Code
+  کد کشور
+
+### SLA
+
+- id
+  شناسه
+- CourierId
+  شناسه کوریر
+- Name
+  نام
+- Days
+  مدت زمان ارسال مرسوله
 
 ---
 
