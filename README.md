@@ -18,14 +18,14 @@
 
 ### تست و تولید [(Test - Production)](00-InfraStructure/00-Test/Test.md)
 
-## ورود و ثبت نام [(Authentication and Roles)](01-Authentication-And-Role/_AuthenticationAndRole.md)
+## ورود و ثبت نام [(Authentication and Roles)](01-Authentication-and-Roles/_AuthenticationAndRole.md)
 
 - گروه ها (Group)
 - سطوح دسترسی (Role)
 - افراد (User)
 - سطوح دسترسی (Permission)
 
-## تعریف سرویس ها [Product servise](02-Product-service/2-Product-servise/_ProductServise.md)
+## تعریف سرویس ها [Product service](02-Product-service/_ProductService.md)
 
 ### قیمت های آفلاین Gatwaye Price
 
@@ -49,7 +49,7 @@
 
 - سفارشات انبوه (Bulk Service)
 
-## قرارداد مشتری [(contract service )](04-Contract-Service/_ContractService.md)
+## قرارداد مشتری [(contract service )](03-Contract-Service/_ContractService.md)
 
 - تعریف کانترکت (Add Contract)
 - اصلاح قرارداد (Edit Cotract)
@@ -58,7 +58,7 @@
 - مشتری قرارداد (CustomerContract)
 - قرارداد پیش فرض (General Contract)
 
-## ثبت سفارش [(Parcel-order service )](05-Pracel-Order-Service/_ParacelOrderService.md)
+## ثبت سفارش [(Parcel-order service )](04-Pracel-Order-Service/_ParacelOrderService.md)
 
 - ساخت سفارش (Creat Parcel)
 - تغییر وضعیت سفارش (Parcel change status)
@@ -69,7 +69,7 @@
 - امکان تعریف بسته بندی (Shipment Bundeling)
 - مشخص کردن شماره سفارش (Set parcel number)
 
-## مدیریت سفارشات [(Agent service)](06-Agent-Service/_AgentService.md)
+## مدیریت سفارشات [(Agent service)](05-Agent-Service/_AgentService.md)
 
 - ارجاع بار به نماینده (AssignToAgent)
 - ارجاع بار به کوریر (AssignToBycer)
@@ -78,12 +78,12 @@
 - برچسب بر روی محصولات (Labeling)
 - بسته بندی (Packaging)
 
-## تیکت [(Ticketing)](07-Ticketing/_Ticketing.md)
+## تیکت [(Ticketing)](06-Ticketing/_Ticketing.md)
 
 - Ticket CRUD
 - پیگیری تیکت (Ticket Follow up)
 
-## فرایند های مالی [(Accounting service)](08-Accounting-Service/_AccountingService.md)
+## فرایند های مالی [(Accounting service)](07-Accounting-Service/_AccountingService.md)
 
 - تسویه حساب (Cashout)
 - کیف پول (Wallet)
@@ -91,7 +91,7 @@
 - Financial promotion
 - Gifts
 
-## گزارشات [(Reporting)](10-Reporting/_Reporting.md)
+## گزارشات [(Reporting)](08-Reporting/_Reporting.md)
 
 - نمایش گزارشات (Show Reports)
 - سفارشی کردن گزارشات (Customize Reports)
@@ -101,26 +101,26 @@
 - ساخت گزارشات به صورت افلاین (Create Offline Reports)
 - یکی کردذن گزارشات (Merg Reports)
 
-## اعلانات [(Notification Service)](11-Notification-Service/_NotificationService.md)
+## اعلانات [(Notification Service)](09-Notification-Service/_NotificationService.md)
 
 - اتصال به سرویس پیامک(Connect to SMS Services)
 - اتصال به سرویس ایمیل (Connect To Email Services)
 - پوش نوتیفیکیشن (Application Push Notification)
 - وب سرویس های شبکه های اجتماعی (social media web services)
 
-## پرداخت ها [(payment service)](14-Peyment-Service/_PeymentService.md)
+## پرداخت ها [(payment service)](10-Peyment-Service/_PeymentService.md)
 
 - پرداخت هزینه سفارش (PayForOrder)
 - Online Banks  gateways
 
-## لاگ [(Logs)](17-Log/_Log.md)
+## لاگ [(Logs)](11-Log/_Log.md)
 
 - لاگ های سگانه ThirdPartyLoging Servic
 - لاگ های همیشگی (always)
 - لاگ های موردی  (percase)
 - لاگ های محیط توسعه(Environment)
 
-## طراحی [(UI)](UI/Ui.md)
+## طراحی [(UI)](12-UI/Ui.md)
 
 [لیست سرویس ها](https://docs.google.com/spreadsheets/d/1WJbg2b9-I040qbG7qJXNGT5llJ1ACH19/edit?usp=sharing&ouid=117990549631970722186&rtpof=true&sd=true)
 
