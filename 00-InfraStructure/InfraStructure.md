@@ -1,5 +1,9 @@
 # InfraStructure
 
+## متدلوژی
+
+RAD
+
 ## معماری
 
 vertical architecture
