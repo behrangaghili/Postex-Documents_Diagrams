@@ -14,12 +14,14 @@
     - [قواعد کسب و کار برای سرویس پروداکت](#قواعد-کسب-و-کار-برای-سرویس-پروداکت)
     - [فرایند استعلام و پرداخت آفلاین](#فرایند-استعلام-و-پرداخت-آفلاین)
   - [موجودیت ها](#موجودیت-ها)
-    - [Courier](#courier)
+    - [CourierId](#courierid)
+    - [CourierService](#courierservice)
     - [company](#company)
     - [CourierLimit](#courierlimit)
     - [CourierLimitValue](#courierlimitvalue)
-    - [CourierZoneSLA](#courierzonesla)
-    - [CourierZonePriceSLA](#courierzonepricesla)
+    - [CourierZone](#courierzone)
+    - [CourierZonePrice](#courierzoneprice)
+    - [CourierZoneCityMapping](#courierzonecitymapping)
     - [ZoneOffline](#zoneoffline)
     - [CourierCity](#couriercity)
     - [City](#city)
@@ -41,6 +43,8 @@
     - [CourierCityTypePrice](#couriercitytypeprice)
     - [PostexCOD](#postexcod)
     - [PostexInsurance](#postexinsurance)
+    - [CourierZoneCollectionDistributionPrices](#courierzonecollectiondistributionprices)
+    - [CourierZonePriceTemplate](#courierzonepricetemplate)
   - [Methods](#methods)
   - [فرایند ها](#فرایند-ها)
   - [دیاگرام ها](#دیاگرام-ها)
@@ -246,10 +250,10 @@ C = 10000
 D = 5460
 E = 99100 
 F = 99100 – 10000 – 54600 = 83640
-G = (100 / (100 – 20)) * 83640 = 104550
+G = (100 / (100 – 20)) *83640 = 104550
 I = 0
 J = 0
-X = ((104550 + (104550 * 0 / 100) + 10000 + 5460) * 1.09) + 0  = 130811
+X = ((104550 + (104550* 0 / 100) + 10000 + 5460) * 1.09) + 0  = 130811
 
 ### فرایند استعلام و پرداخت آفلاین 
 
@@ -261,7 +265,20 @@ X = ((104550 + (104550 * 0 / 100) + 10000 + 5460) * 1.09) + 0  = 130811
 
 ## موجودیت ها
 
-### Courier
+### CourierId
+
+در این جدول ما کوریر ها را تعریف میکنیم مثل پست ، چاپار سایر شرکت های پستی 
+
+- id
+  شناسه
+- Company
+  شرکت
+- Name
+  نام شرکت
+
+### CourierService
+
+در این جدول ما سرویس های هر کوریر را ذخیره میکنیم به عنوان مثال شرکت پست دارای سه سرویس می باشد پست پیشتاز ،پست سفارشی ،پست ویژه که این سه سرویس در این جدول تعریف می شوند.
 
 - Id
  شناسه 
@@ -300,8 +317,6 @@ X = ((104550 + (104550 * 0 / 100) + 10000 + 5460) * 1.09) + 0  = 130811
   پسکرایه
 - CourierContractPercent
   درصد قرارداد کوریر
-- Company
-  شناسه نام کمپانی
 - Heavy
   حمل سنگین دارد یا خیر
 
@@ -336,37 +351,43 @@ X = ((104550 + (104550 * 0 / 100) + 10000 + 5460) * 1.09) + 0  = 130811
 - True/false
   دارد یا ندارد
 
-### CourierZoneSLA
+### CourierZone
 
 - id
   شناسه 
 - CourierId
   شناسه کوریر
-- stateId
-  شناسه استان مرکز
-- CityToId
-  شناسه شهر مبدا
-- CityFromId
-  شناسه شهر مقصد
-- ZoneId
-  شناسه جدول زون ها شامل همجوار و غیر همجوار مراکز استان 
-- SLAId
-  شناسه SLA
+- Name
+- Code
 
-### CourierZonePriceSLA
+### CourierZonePrice
 
 - id
   شناسه
-- Courier id
-  شناسه کوریر 
-- SellPrice
-  قیمت فروش خدمات
-- BuyPrise
-  قیمت خرید خدمات
+- CourierServiceId
+  شناسه سرویس کوریر
+- FromCourierZoneId
+  شناسه گستره فرستنده
+- ToCourierZoneId
+   شناسه گستره گیرنده
+- BuyPrice
+  هزینه خرید
 - VolumeId
-  شناسه ابعاد مختلف در یک سرویس
-- weighti
-  شناسه وزن مخلف در یک سرویس
+  حجم
+- Weight
+  وزن
+- SameState
+  هم استانی (Bool)
+
+### CourierZoneCityMapping
+
+این جدول وظیفه مپ کردن شهر های هر زون در کوریر ها را دارد به عنوان مثال در شرکت چاپار زون یک شامل تهران و اراک و... می باشد
+
+- id
+- CorierZoneId
+  شناسه زون ها
+- CityId
+  شناسه شهر ها
 
 ### ZoneOffline
 
@@ -600,6 +621,33 @@ X = ((104550 + (104550 * 0 / 100) + 10000 + 5460) * 1.09) + 0  = 130811
 - ToValue
 - FixValue
 - FixPrecent
+
+### CourierZoneCollectionDistributionPrices
+
+این جدول برای قیمت آفلاین می باشد و همراه جدول کوریر زون پرایزس هزینه های پستی را به صورت آفلاین ارسال میکند
+ولی با این تفاوت که جدول کوریر زون پرایس برای شرکت های پستی می باشد ولی این جدول برای شرکت های پیکی می باشد مثل تعارف و پیشروپست
+
+- id
+- CourierZoneId
+- BuyPrice
+  قیمت خرید
+- SellPrice
+  قیمت فروش
+- Volume
+  حجم
+
+### CourierZonePriceTemplate
+
+این جدول یک جدول کمکی می باشد برای پر کردن قیمت های آفلاین 
+
+- Id
+- FromCity
+- ToCity
+- CourierServiceId
+- FromCoureirZoneId
+- ToCourierZoneId
+- Weight
+- SameState
 
 ---
 
