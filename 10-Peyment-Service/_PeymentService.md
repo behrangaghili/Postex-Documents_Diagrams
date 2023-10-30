@@ -9,8 +9,7 @@
 ## Feature
 
 - PayForOrder
-- refound
-- Online Banks  gateways
+- refund
 
 ### نیازمندی ها سرویس پرداخت
 
@@ -26,17 +25,71 @@
 درصورتی که موجودی کمتر حد سفارش است از طریق اکانتینگ سرویس امکان شارژ کیف پول وجود داشته باشد
 امکان ثبت سفارش درصورتی که کیف پول منفی بود وجود نداشته باشد مگر برای افرادی که قرارداد لیزینگ داشته باشند و میزان اعتبار و سقف منفی شدن مشخص شده باشد
 
-باید کارپوشه ای برای پرداخت داشته باشیم که در ابتدا تایپ پرداخت بررسی شود به عنوان مثال خدمات نمایندگی هستش که باید بررسی شود وضعیت سفارش تکمیل باشد و سپس وبسرویس کال شود و لیست پرداختی انجام شود 
-کال شدن وب سوریس مطابق با otp باشد 
+
+### refund
+
+برای این سرویس ما از سرویس شرکت جیبیت استفاده میکنیم 
+درخواست ها را ثبت میکنیم و در انتها پرداخت خودکار انجام می شود 
+
+---
+
+
 
 
 ---
 
-## موجودیت ها
+## موجودیت
+
+- refund
+  - userId
+  - amuont
+  - shabaNumber
+  - transfersMode روش پرداخت
+  -  GUID   شماره تراکنش
+  -  CorrelationID شناسه درخواست بین سرویس های سیستم 
+  -  MobileNo شماره موبایل
+  -  PayerId 
+  -  OrderNumber شماره سفارش 
+  -  SentOrderNumber 
+  -  PaymentRequestState
+  -  FailReason دلیل انجام نشدن درخواست
+  -  Description 
+  -  PaymentMethod
+  -  PaymentToken 
+  -  ReturnUrl
+  -  CancelUrl کنسلی درخواست 
+  -  AppName  درخواست دهنده
+  -  Remark  سایر توضیحات
+
+
+- pay
+  -  usreId
+  -  amuont
+  -  GUID   شماره تراکنش
+  -  CorrelationID شناسه درخواست بین سرویس های سیستم 
+  -  MobileNo شماره موبایل
+  -  PayerId 
+  -  OrderNumber شماره سفارش 
+  -  SentOrderNumber 
+  -  PaymentRequestState
+  -  FailReason دلیل انجام نشدن درخواست
+  -  Description 
+  -  PaymentMethod
+  -  PaymentToken 
+  -  ReturnUrl
+  -  CardNumber شماره کارت 
+  -  CancelUrl کنسلی درخواست 
+  -  AppName  درخواست دهنده
+  -  Remark  سایر توضیحات
 
 ---
 
 ## متدها
+
+- PaymentRequest()
+- PaymentRequestRefund()
+- PaymentWebhookResult ()
+  این یک متد فرعی می باشد برای نوشتن نتایج روی دیتابیس 
 
 ---
 

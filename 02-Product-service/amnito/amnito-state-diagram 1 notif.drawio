@@ -1,29 +1,29 @@
 <mxfile host="65bd71144e">
     <diagram id="VGdK8KnGvns72B47TYJ3" name="Page-1">
-        <mxGraphModel dx="1182" dy="662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="#CCCCCC" math="0" shadow="0">
+        <mxGraphModel dx="1233" dy="490" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="#CCCCCC" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="13" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="12" edge="1">
+                <mxCell id="223" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="5" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;شروع&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-                    <mxGeometry x="17" y="173" width="128" height="128" as="geometry"/>
-                </mxCell>
-                <mxCell id="15" value="" style="edgeStyle=none;html=1;" parent="1" source="12" target="14" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;دریافت نوتیف از سمت پستکس&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="241" y="185" width="215" height="104" as="geometry"/>
+                    <mxGeometry x="26" y="192" width="128" height="128" as="geometry"/>
                 </mxCell>
                 <mxCell id="112" value="" style="edgeStyle=none;html=1;" parent="1" source="14" target="111" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="114" value="" style="edgeStyle=none;html=1;" parent="1" source="14" target="113" edge="1">
+                <mxCell id="114" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="14" target="113" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ورود به پستکس&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="636" y="188" width="190" height="110" as="geometry"/>
+                <mxCell id="218" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="14" target="217" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="221" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=15;" parent="1" source="14" target="220" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ورود به پستکس&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="629" y="210" width="190" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="71" value="" style="whiteSpace=wrap;html=1;fontSize=19;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1521" y="714" width="781" height="478" as="geometry"/>
@@ -80,10 +80,16 @@
                 <mxCell id="126" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="111" target="125" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="184" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="111" target="183">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="184" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="111" target="183" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="636" y="441"/>
+                            <mxPoint x="493" y="441"/>
+                            <mxPoint x="493" y="392"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="188" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="111">
+                <mxCell id="188" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="111" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="471.5" y="497.41558441558436" as="targetPoint"/>
                     </mxGeometry>
@@ -91,23 +97,64 @@
                 <mxCell id="111" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;سفارش انجام میشود&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
                     <mxGeometry x="636" y="414" width="190" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="147" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="113" target="111" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="147" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.995;entryY=0.141;entryDx=0;entryDy=0;fontSize=20;entryPerimeter=0;" parent="1" source="113" target="111" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1339" y="122"/>
+                            <mxPoint x="1339" y="301"/>
+                            <mxPoint x="850" y="301"/>
+                            <mxPoint x="850" y="429"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="166" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="113" target="165" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="166" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;entryX=0.069;entryY=0.268;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="113" target="165" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1977" y="135" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="113" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;سفارش رها میشود&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
-                    <mxGeometry x="1190" y="185" width="190" height="110" as="geometry"/>
+                    <mxGeometry x="1200" y="12" width="190" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="115" target="73" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="149" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="115" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1326" y="513"/>
+                            <mxPoint x="1326" y="520"/>
+                            <mxPoint x="1503" y="520"/>
+                            <mxPoint x="1503" y="840"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="190" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="115" target="189">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="233" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#FFFFFF;" parent="1" source="115" target="189" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1326" y="189"/>
+                            <mxPoint x="1546" y="189"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="234" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#FFFFFF;" parent="1" source="115" target="227" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1392" y="430"/>
+                            <mxPoint x="1392" y="269"/>
+                            <mxPoint x="1526" y="269"/>
+                            <mxPoint x="1526" y="202"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="253" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(42, 37, 47);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%D9%86%D9%88%D8%AA%DB%8C%D9%81%20%D9%88%20%D9%BE%DB%8C%D8%A7%D9%85%DA%A9%26amp%3Bnbsp%3B%D9%81%D8%B1%D8%B3%D8%AA%D9%86%D8%AF%D9%87%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D15%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221243%22%20y%3D%22360.5%22%20width%3D%2278%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(42, 37, 47);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%D9%86%D9%88%D8%AA%DB%8C%D9%81%20%D9%88%20%D9%BE%DB%8C%D8%A7%D9%85%DA%A9%26amp%3Bnbsp%3B%D9%81%D8%B1%D8%B3%D8%AA%D9%86%D8%AF%D9%87%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D15%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221243%22%20y%3D%22360.5%22%20width%3D%2278%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=Helvetica;fontColor=#FFFFFF;" parent="234" vertex="1" connectable="0">
+                    <mxGeometry x="-0.5293" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="254" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(42, 37, 47);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%D9%86%D9%88%D8%AA%DB%8C%D9%81%20%D9%88%20%D9%BE%DB%8C%D8%A7%D9%85%DA%A9%26amp%3Bnbsp%3B%D9%81%D8%B1%D8%B3%D8%AA%D9%86%D8%AF%D9%87%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D15%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221243%22%20y%3D%22360.5%22%20width%3D%2278%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=Helvetica;fontColor=#FFFFFF;" parent="234" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6287" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="115" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;لغو سفارش قبل از ارسال&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
-                    <mxGeometry x="1190" y="420" width="190" height="110" as="geometry"/>
+                    <mxGeometry x="1016.5" y="403" width="190" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="122" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="119" target="121" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -120,10 +167,10 @@
                 <mxCell id="130" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="119" target="128" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="146" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=20;" parent="1" source="119" target="131" edge="1">
+                <mxCell id="146" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=20;" parent="1" source="119" target="131" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="203" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.47;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="119" target="201">
+                <mxCell id="203" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.47;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" parent="1" source="119" target="201" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="119" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;سفارش ارسال می شود&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
@@ -132,58 +179,88 @@
                 <mxCell id="159" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="121" target="73" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="199" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="121" target="197">
+                <mxCell id="199" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=11;" parent="1" source="121" target="197" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="200" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="121">
+                <mxCell id="213" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="121" target="194" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="267" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="121" target="266">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1377.8000030517578" y="1193.5999450683594" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="973" y="1097"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="121" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;سفارش تحویل گیرنده می شود&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-                    <mxGeometry x="1204" y="1042" width="216" height="110" as="geometry"/>
+                <mxCell id="121" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;سفارش تحویل گیرنده می شود&amp;nbsp;&lt;br&gt;تایید و تسویه مالی از سمت کوریر&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="1204" y="1042" width="226" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="127" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="125" target="119" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="129" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="125" target="128" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="129" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="125" target="228" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="939" y="681"/>
+                            <mxPoint x="939" y="596"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="125" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;قبول مرسوله&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
                     <mxGeometry x="636" y="626" width="190" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="171" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="128" target="73" edge="1">
+                <mxCell id="192" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="228" target="191" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1394" y="537" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="1435" y="488"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="237" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#FFFFFF;" parent="1" source="128" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1214" y="995"/>
+                            <mxPoint x="1627" y="995"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="238" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#FFFFFF;" parent="1" source="128" target="204" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="192" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="128" target="191">
+                <mxCell id="239" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#FFFFFF;" parent="1" source="128" target="236" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="206" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="128" target="204">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="268" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="128" target="266">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="952" y="916"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="128" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;برگشت سفارش&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
-                    <mxGeometry x="1190" y="600" width="190" height="110" as="geometry"/>
+                    <mxGeometry x="1024.5" y="838" width="190" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="143" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="131" target="98" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="131" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;اعلام مفقودی سفارش&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
-                    <mxGeometry x="635.9999999999999" y="1179" width="190" height="110" as="geometry"/>
+                    <mxGeometry x="647.9999999999999" y="1175" width="190" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="133" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;سفارش گم می شود&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="740.9999999999998" y="1107" width="130" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="134" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;مشتری تحویل میگیرد&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="826" y="971" width="152" height="30" as="geometry"/>
+                    <mxGeometry x="787" y="972" width="152" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="135" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;عدم قبول توسط مشتری&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="967" y="857" width="182" height="30" as="geometry"/>
+                    <mxGeometry x="829" y="852.5" width="182" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="136" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;فرایند مفقودی سفارش&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1761" y="1252" width="152" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="138" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;پیگیری مفقودی توسط پشتیبانی&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="957.5" y="1322" width="201" height="30" as="geometry"/>
+                    <mxGeometry x="656" y="1336" width="201" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="140" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;مرسوله گم شده&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1832" y="1336" width="152" height="30" as="geometry"/>
@@ -195,7 +272,7 @@
                     <mxGeometry x="1022" y="324" width="182" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="150" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;فرستنده منصرف می شود&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="926" y="428" width="182" height="30" as="geometry"/>
+                    <mxGeometry x="829" y="428" width="182" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="153" value="اطلاعات درست است" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
                     <mxGeometry x="1836" y="803" width="145" height="30" as="geometry"/>
@@ -209,11 +286,11 @@
                 <mxCell id="157" value="اطلاعات نا درست است" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
                     <mxGeometry x="1684" y="954" width="158" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="162" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;عدم قبول توسط کوریر پستی&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="926" y="624" width="212" height="30" as="geometry"/>
+                <mxCell id="162" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;عدم قبول توسط کوریر پستی&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
+                    <mxGeometry x="787" y="562" width="212" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="163" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;پرداخت انجام شد&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="545" y="332" width="182" height="30" as="geometry"/>
+                <mxCell id="163" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;پرداخت انجام شد&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+                    <mxGeometry x="655" y="352" width="110" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="164" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;پرداخت انجام نشده&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="976" y="204" width="182" height="30" as="geometry"/>
@@ -221,62 +298,185 @@
                 <mxCell id="165" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;پایان&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
                     <mxGeometry x="2058" y="176" width="128" height="128" as="geometry"/>
                 </mxCell>
-                <mxCell id="168" value="سفارش را تکمیل نمیکند" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
-                    <mxGeometry x="1580" y="182" width="188" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="175" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;در صورتی که برگشتی باشد ولی مرسوله به دست گیرنده برسد باید ه و کسرشود از گیرنده و به حساب فرستنده واریزشود&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1342" y="800" width="134" height="71" as="geometry"/>
+                    <mxGeometry x="1006" y="981" width="177" height="71" as="geometry"/>
                 </mxCell>
-                <mxCell id="177" value="" style="endArrow=none;dashed=1;html=1;fontSize=18;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="121" target="128" edge="1">
+                <mxCell id="177" value="" style="endArrow=none;dashed=1;html=1;fontSize=18;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="121" target="128" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1329" y="803" as="sourcePoint"/>
                         <mxPoint x="1379" y="753" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="182" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" target="121" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="1360" y="979" as="sourcePoint"/>
-                        <mxPoint x="1395" y="889" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="183" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="158" y="346" width="318" height="93" as="geometry"/>
                 </mxCell>
-                <mxCell id="183" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-                    <mxGeometry x="256" y="362" width="198" height="77" as="geometry"/>
+                <mxCell id="185" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;سفارش ارسال کالا به شماره سفارش ..... و کد رهگیری ...... ظرف 2 روز کاری توسط فرستنده ارسال می شود&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;https://app.postex.ir/orderList&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="196" y="369.5" width="245.5" height="46" as="geometry"/>
                 </mxCell>
-                <mxCell id="185" value="سفارش ارسال کالا به شماره سفارش ..... و کد رهگیری ...... ظرف 2 روز کاری توسط فرستنده ارسال می شود&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="266" y="388" width="178" height="30" as="geometry"/>
+                <mxCell id="186" value="&lt;font color=&quot;#fff5f5&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot; color=&quot;#fff5f5&quot;&gt;&lt;span style=&quot;font-family: IRANSans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;فروشنده محترم  سفارش: ......از گیرنده: ......بابت خرید امن دیوار پرداخت شد.  لطفا ظرف 1 روز کاری مرسوله را تحویل نماینده پستکس دهید.  مشاهده در (سفارشات دیگران &lt;br&gt;برای من ) در پیشخوان پستکس&lt;br&gt;&lt;/font&gt;&lt;/span&gt;https://app.postex.ir/ordersOthers&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="158" y="450" width="318" height="148" as="geometry"/>
                 </mxCell>
-                <mxCell id="186" value="&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: IRANSans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;فروشنده محترم  سفارش: 1435857 از گیرنده: وحید روشنی بابت خرید امن دیوار پرداخت شد.  لطفا ظرف 1 روز کاری مرسوله را تحویل نماینده پستکس دهید.  مشاهده در (سفارشات دیگران برای من ) در پیشخوان پستکس&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
-                    <mxGeometry x="246.5" y="465" width="217" height="104" as="geometry"/>
+                <mxCell id="189" value="&lt;div style=&quot;font-size: 14px; line-height: 19px;&quot;&gt;خریدار از سفارش خود منصرف گردد لطفا کالا را ارسال نفرمایید&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;https://app.postex.ir/dashboard&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="1546" y="76" width="233" height="77" as="geometry"/>
                 </mxCell>
-                <mxCell id="189" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;خریدار از سفارش خود منصرف گردد لطفا کالا را ارسال نفرمایی&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
-                    <mxGeometry x="1480" y="311" width="198" height="77" as="geometry"/>
+                <mxCell id="191" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="1549" y="371" width="226" height="112" as="geometry"/>
                 </mxCell>
-                <mxCell id="191" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-                    <mxGeometry x="1549" y="439" width="198" height="77" as="geometry"/>
+                <mxCell id="193" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;text-align: justify; background-color: initial; font-family: Arial, sans-serif;&quot; lang=&quot;FA&quot;&gt;باتوجه به اعلام&quot;عدم&lt;br&gt;قبول&quot; توسط شرکت ملی پست، مبلغ واریزی شماجهت خریدامن &amp;nbsp;به شماره سفارش &lt;/span&gt;&lt;span style=&quot;text-align: justify; background-color: initial; font-family: Arial, sans-serif;&quot; lang=&quot;FA&quot;&gt;... پس از 1 روز به کیف پول شما واریز خواهد شد&lt;/span&gt;&lt;span style=&quot;text-align: justify; background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;text-align: justify; background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;text-align: justify; background-color: initial; font-family: Arial, sans-serif;&quot; dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;‎&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;app.postex.ir/wallet&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1563.5" y="412" width="201" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="193" value="&lt;div&gt;شماره سفارش 1447627 برگشت شد ، مبلغ کالا به کیف پول شما اضافه شد. برای تسویه کیف پول می تواند به حساب من خود در postex.ir مراجعه کنید.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;" vertex="1" parent="1">
-                    <mxGeometry x="1563" y="468" width="170" height="30" as="geometry"/>
+                <mxCell id="194" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="1261" y="1211" width="224" height="137" as="geometry"/>
                 </mxCell>
-                <mxCell id="194" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-                    <mxGeometry x="1278" y="1195.5" width="198" height="77" as="geometry"/>
+                <mxCell id="195" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;گیرنده / خریدار محترم .....&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp;با توجه به قبول مرسوله &quot;....&quot; از سمت شما به شماره سفارش .....و بارکد ....&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;وجه واریز شده از سمت شما به کیف پول&amp;nbsp; فروشنده&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;واریز میشود.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;app.postex.ir/orderList&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1270" y="1242" width="206" height="66" as="geometry"/>
                 </mxCell>
-                <mxCell id="195" value="&lt;div&gt;گیرنده / خریدار محترم وحید روشنی&lt;/div&gt;&lt;div&gt;&amp;nbsp;با توجه به قبول مرسوله &quot;کتاب&quot; از سمت شما به شماره سفارش 1468452 و بارکد 210160219004273350000147&lt;/div&gt;&lt;div&gt;وجه واریز شده از سمت شما به حساب فروشنده واریز میشود.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;" vertex="1" parent="1">
-                    <mxGeometry x="1283" y="1219" width="182" height="30" as="geometry"/>
+                <mxCell id="197" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;p dir=&quot;RTL&quot; class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;FA&quot;&gt;فروشنده / فرستنده محترم.&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;....&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;کالای&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;......&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;به شماره سفارش&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;.......&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;و بارکد&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;......&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;به گیرنده تحویل گردید.....&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;با توجه به قبول مرسوله از سمت گیرنده وجه کالای&lt;br&gt;شما ظرف 1 روز کاری به کیف پول شما واریز خواهد شد.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 90%;&quot; dir=&quot;RTL&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;app.postex.ir/wallet&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="1006" y="1207" width="233" height="136" as="geometry"/>
                 </mxCell>
-                <mxCell id="197" value="&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;مرسوله با شماره سفارش توسط گیرنده تحویل گردد و طی دو روز کاری تسویه حساب انجام میگیرد&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
-                    <mxGeometry x="1007" y="1209" width="217" height="45" as="geometry"/>
+                <mxCell id="201" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="167" y="1223" width="234" height="97" as="geometry"/>
                 </mxCell>
-                <mxCell id="201" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-                    <mxGeometry x="174" y="1223" width="221" height="97" as="geometry"/>
-                </mxCell>
-                <mxCell id="202" value="&lt;div&gt;وحید روشنی عزیز مرسوله&amp;nbsp; شما به شماره سفارش 1446175 و کد رهگیری 210160217404031760038147 بعلت عدم حضور شما در محل، به باجه معطله تحویل داده شد. با مراجعه به https://postex.ir از سرنوشت مرسوله مطلع شوید&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="202" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;خریدار محترم..... عزیز مرسوله&amp;nbsp; شما به شماره سفارش ......و کد رهگیری .....بعلت عدم حضور شما در محل، به باجه معطله تحویل داده شد.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;https://app.postex.ir/orderList&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="184" y="1256.5" width="184" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="204" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-                    <mxGeometry x="1586" y="549" width="198" height="77" as="geometry"/>
+                <mxCell id="204" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="1251" y="849" width="240" height="132" as="geometry"/>
                 </mxCell>
-                <mxCell id="205" value="&lt;div&gt;باتوجه به انصراف شما از سفارش شماره 1447627 مبلغ امانی پرداخت شده توسط شما ظرف مدت حداکثر 2 روز کاری به حساب شما واریز خواهد شد&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;" vertex="1" parent="1">
-                    <mxGeometry x="1604" y="579" width="164" height="30" as="geometry"/>
+                <mxCell id="205" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;p dir=&quot;RTL&quot; class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;FA&quot;&gt;خریدار/ گیرنده محترم&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;....... با توجه به عدم پذیرش مرسوله&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;......&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;به شماره سفارش&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;.....&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;و بارکد&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;.......&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;از سوی شما...... وجه واریزی شما بابت این سفارش ظرف 1 روز&amp;nbsp; به کیف پول شما&lt;br&gt;عودت داده خواهد شد&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;https://app.postex.ir/dashboard&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;RTL&quot; class=&quot;MsoNormal&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1264" y="912" width="218" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;راهنمای دیاگرام&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;کادر سبز : مراحل موفق&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;کادر قرمز : مراحل ناموفق&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;کادر آبی : ارسال پیام و نوتیف برای فرستنده&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;کادر نارنجی: ارسال پیام و نوتیف برای گیرنده&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;کادر مشکی : فرایند های&amp;nbsp; مجزا&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=right;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="12" y="1454" width="260" height="187" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="ارسال نوتیف و پیامک برای فرستنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="475" y="519" width="181" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="ارسال نوتیف و پیامک&amp;nbsp;فرستنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1142" y="364" width="187" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="216" value="ارسال نوتیف و پیامک برای خریدار" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="285" y="1171" width="183" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="312" y="18" width="383" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="&lt;span style=&quot;font-family: IRANSans, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: start;&quot;&gt;&lt;font color=&quot;#fff5f5&quot;&gt;خریدار محترم مبلغی که بابت خرید کالا٬ بصورت خرید فروش امن امنیتو به حساب امانی واریز میفرمایید تا زمان تحویل مرسوله و تحویل یا عدم تحویل مرسوله در حساب امانی پستکس باقی می ماند.لطفا بدون خواندن قوانین و مقرارت لطفا از &lt;br&gt;&amp;nbsp;ثبت سفارش جداً خوداری فرمایید. پس از انجام معامله نسبت به عملکرد فروشنده نظرسنجی صورت میگیرد و در اختیار خریداران بعدی قرار میگیرد&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="323" y="92" width="352" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;IRANSans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;فرستنده محترم لطفاً           نام:......... نام خانوادگی:.........موبایل:.........آدرس:.........وزن مرسوله:.........ابعاد مرسوله:.........خود را جهت ثبت سفارش پرداخت امن  در چت باکس  ارسال بفرمایید &lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="811" y="23" width="347" height="136" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="نوتیف چت دیوار" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="526" y="197" width="106" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="نوتیف چت دیوار" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="182" width="106" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="1551.25" y="159" width="232" height="94" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="مبلغ امانی پرداخت شده توسط شما ظرف مدت حداکثر 1 روز به کیف پول شما واریز خواهد شد&lt;br&gt;app.postex.ir/wallet&lt;br&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#FFF5F5;" parent="1" vertex="1">
+                    <mxGeometry x="1549" y="194" width="228" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#FFFFFF;entryX=0.005;entryY=0.437;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="228" target="229" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1206" y="554"/>
+                            <mxPoint x="1426" y="554"/>
+                            <mxPoint x="1426" y="434"/>
+                            <mxPoint x="1424" y="434"/>
+                            <mxPoint x="1424" y="302"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="248" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#FFFFFF;" parent="1" source="228" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1206" y="620"/>
+                            <mxPoint x="1489" y="620"/>
+                            <mxPoint x="1489" y="790"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="228" value="&lt;span style=&quot;color: rgb(240, 240, 240); font-size: 20px;&quot;&gt;عدم قبول توسط کوریر پستی&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+                    <mxGeometry x="1016.5" y="541" width="190" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="229" value="&lt;div style=&quot;font-size: 14px; line-height: 19px;&quot;&gt;&lt;p style=&quot;text-align:justify;direction:rtl;unicode-bidi:&lt;br/&gt;embed&quot; dir=&quot;RTL&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-ascii-font-family:&lt;br/&gt;Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:Calibri;&lt;br/&gt;mso-hansi-theme-font:minor-latin;mso-bidi-language:FA&quot; lang=&quot;FA&quot;&gt;با توجه به اعلام عدم&lt;br/&gt;قبول مرسوله .... به شماره سفارش ..... از سوی شرکت ملی پست، وجه واریزی از سوی خریدار&lt;br/&gt;به حساب ایشان مسترد می گردد.&lt;/span&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif;&lt;br/&gt;mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:&lt;br/&gt;Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-bidi-language:FA&quot; lang=&quot;FA&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="1546" y="261" width="231" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="245" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#FFFFFF;" parent="1" source="235" target="243" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1457" y="677"/>
+                            <mxPoint x="1457" y="545"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="246" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.008;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=15;fontColor=#FFFFFF;" parent="1" source="235" target="240" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1470" y="705"/>
+                            <mxPoint x="1470" y="665"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="247" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#FFFFFF;" parent="1" source="235" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;غیر قابل توزیع&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+                    <mxGeometry x="1019.5" y="677" width="190" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="&lt;div style=&quot;font-size: 15px; line-height: 19px;&quot;&gt;&lt;p dir=&quot;RTL&quot; class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;FA&quot;&gt;فروشنده / فرستنده محترم&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;FA&quot;&gt;مرسوله&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;......&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;FA&quot;&gt;با سفارش شماره&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;FA&quot;&gt;و بارکد&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;.....&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;FA&quot;&gt;توسط خریدار&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;FA&quot;&gt;.....&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;FA&quot;&gt;قبول نگردید&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;.... &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;FA&quot;&gt;لذا وجه واریزی از سوی خریدار به حساب ایشان مسترد میگردد .&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;RTL&quot; class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;FA&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="1250" y="745" width="230" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="1549.5" y="597" width="235.5" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;text-align: justify; background-color: initial; font-family: Arial, sans-serif;&quot; lang=&quot;FA&quot;&gt;باتوجه به اعلام&quot;غیر قابل توزیع بودن سفارش&quot; توسط شرکت ملی پست، مبلغ واریزی شماجهت خریدامن &amp;nbsp;به شماره سفارش &lt;/span&gt;&lt;span style=&quot;text-align: justify; background-color: initial; font-family: Arial, sans-serif;&quot; lang=&quot;FA&quot;&gt;... پس از 1 روز به کیف پول شما واریز خواهد شد&lt;/span&gt;&lt;span style=&quot;text-align: justify; background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;text-align: justify; background-color: initial;&quot; dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span style=&quot;text-align: justify; background-color: initial; font-family: Arial, sans-serif;&quot; dir=&quot;LTR&quot; lang=&quot;FA&quot;&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;‎&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;app.postex.ir/wallet&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1563.5" y="638" width="201" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" value="&lt;div style=&quot;font-size: 14px; line-height: 19px;&quot;&gt;&lt;p style=&quot;font-size: 15px;&quot; dir=&quot;RTL&quot; class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;FA&quot;&gt;با توجه به اعلام غیر قابل توزیع بودن&amp;nbsp; به شماره سفارش ..... از سوی شرکت ملی پست، وجه واریزی از سوی خریدار&lt;br&gt;به حساب ایشان مسترد می گردد.&lt;/span&gt;&lt;span lang=&quot;FA&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="1546.5" y="499" width="231" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" value="ارسال نوتیف و پیامک گیرنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1230" y="433" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="ارسال نوتیف و پیامک گیرنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1230" y="571" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" value="ارسال نوتیف و پیامک&amp;nbsp;فرستنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1175" y="524" width="187" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="259" value="ارسال نوتیف و پیامک گیرنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1230" y="704" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="260" value="ارسال نوتیف و پیامک&amp;nbsp;فرستنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1218.5" y="651" width="187" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" value="ارسال نوتیف و پیامک فرستنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1048" y="801" width="161.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="263" value="ارسال نوتیف و پیامک گیرنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1375" y="1179" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" value="ارسال نوتیف و پیامک فرستنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1027" y="1149" width="171" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="265" value="ارسال نوتیف و پیامک گیرنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="498" y="382" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="270" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="266" target="269">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="266" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;نظرسنجی&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="865" y="1430" width="216" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="269" value="&lt;font color=&quot;#fff5eb&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;p dir=&quot;RTL&quot; class=&quot;MsoNormal&quot;&gt;خریدار محترم لطفا نسبت به عملکرد فروشنده ارزیابی خود را اعلام نمایید&lt;/p&gt;&lt;p dir=&quot;RTL&quot; class=&quot;MsoNormal&quot;&gt;app.postex.ir/amnitoratehttps&lt;/p&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+                    <mxGeometry x="1274" y="1430" width="233" height="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="271" value="ارسال نوتیف و پیامک گیرنده" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1107" y="1454" width="150" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
