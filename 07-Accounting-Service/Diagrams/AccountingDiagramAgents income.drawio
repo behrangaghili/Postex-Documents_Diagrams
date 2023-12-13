@@ -1,0 +1,48 @@
+<mxfile host="65bd71144e">
+    <diagram id="Tkd8oNJU2u8Y2-cQicgN" name="Page-1">
+        <mxGraphModel dx="3307" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="#B3B3B3" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="80" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=45;" edge="1" parent="1" source="3" target="79">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1890" y="840"/>
+                            <mxPoint x="1890" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=45;fontColor=#010203;" edge="1" parent="1" source="3" target="83">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=45;fontColor=#010203;" edge="1" parent="1" source="3" target="86">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;درآمد نمایدگان&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="1960" y="770" width="330" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;تخفیف نمایندگی&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="1500" y="170" width="330" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="&lt;font color=&quot;#010203&quot;&gt;از بابت هر سفارش که نماینده ثبت می کند 10 درصد هزینه پستی برای ثبت سفارش های مجدد به کیف پول نماینده واریز می شود&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="212.5" width="1440" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;خدمات نمایندگی&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="1500" y="770" width="330" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="&lt;font color=&quot;#010203&quot;&gt;اگر نماینده برای مرسولات مشتریان خود خدماتی انجام دهد (از قبیل کارتن و بسته بندی ، چاپ ، لیبل و...) مبلغی تحت عنوان خدمات نمایندگی در زمان ثبت سفارش در قسمت مربوطه وارد میکند این مبلغ پس از ثبت نهایی سفارش به کیف پول نماینده جهت ثبت سفارش بعدی واریز خواهد شد&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="812.5" width="1440" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;جمع آوری و توزیع&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="1500" y="1270" width="330" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="&lt;font color=&quot;#010203&quot;&gt;اگر سفارشی به نماینده جهت جمع آوری و تحویل به مراکز پستی ارجاع شود ، هزینه ای بابت جمع آوری مرسوله در پایان ماه تحت عنوان هزینه جمع آوری و توزیع به حساب بانکی آن ها واریز می شود&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1300" width="1430" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=45;fontColor=#010203;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="20" width="2310" height="1610" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

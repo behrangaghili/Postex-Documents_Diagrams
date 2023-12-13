@@ -1,0 +1,54 @@
+<mxfile host="65bd71144e">
+    <diagram id="oZVNhFJS5LMWW8ZvgQfO" name="Page-1">
+        <mxGraphModel dx="796" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0;exitDx=185;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=45;entryDy=100;entryPerimeter=0;" edge="1" parent="1" source="5" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Server 252" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="60" width="300" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="app-252" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;" parent="5" vertex="1">
+                    <mxGeometry width="100" height="80" relative="1" as="geometry">
+                        <mxPoint x="20" y="60" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=45;exitDy=100;exitPerimeter=0;" parent="5" source="7" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="db-252" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;" parent="5" vertex="1">
+                    <mxGeometry width="100" height="80" relative="1" as="geometry">
+                        <mxPoint x="170" y="50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="appMicro-252" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;" vertex="1" parent="5">
+                    <mxGeometry x="20" y="170" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" parent="5" source="13" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="DBMicro-252" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;" vertex="1" parent="5">
+                    <mxGeometry x="170" y="170" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Server 250" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="677" y="50" width="300" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="veeamBackup" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;" parent="8" vertex="1">
+                    <mxGeometry width="100" height="80" relative="1" as="geometry">
+                        <mxPoint x="40" y="50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0;exitDx=0;exitDy=45;exitPerimeter=0;entryX=0;entryY=0;entryDx=80;entryDy=55;entryPerimeter=0;" edge="1" parent="8" source="10" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="winstaging" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;" parent="8" vertex="1">
+                    <mxGeometry width="100" height="80" relative="1" as="geometry">
+                        <mxPoint x="33" y="200" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

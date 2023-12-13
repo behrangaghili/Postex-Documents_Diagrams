@@ -1,0 +1,67 @@
+<mxfile host="65bd71144e">
+    <diagram id="Gn0iaHIO_Kdy-sjLcY_n" name="Page-1">
+        <mxGraphModel dx="1431" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="100" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=30;" edge="1" parent="1" source="97" target="99">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;امنیتو&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="269" y="228" width="148" height="148" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=30;" edge="1" parent="1" source="99" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="User peer ID chat token" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="573" y="242" width="343" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=30;" edge="1" parent="1" source="102" target="104">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="Url + State" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="1072" y="242" width="343" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=30;" edge="1" parent="1" source="104" target="107">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Route" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="1128" y="579" width="231" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="URL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="1277" y="449" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=30;" edge="1" parent="1" source="107" target="110">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="DivarReqAccess" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="735" y="579" width="231" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=30;" edge="1" parent="1" source="110" target="112">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="URL(div)" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="288" y="579" width="231" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=30;" edge="1" parent="1" source="112" target="115">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="State code" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="288" y="774" width="231" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="Url" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="403" y="711" width="56" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=30;" edge="1" parent="1" source="115" target="117">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="LoginByCode" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="735" y="774" width="231" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="Take postex" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="1128" y="774" width="231" height="115" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
