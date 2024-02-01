@@ -45,7 +45,7 @@ We believe in continuous improvement and transparent communication. This reposit
 Below is an introductory schematic view of the VMs we manage across two ESXi servers. This diagram provides a foundational understanding of our VM arrangement and network structure.
 
 <div align="center">
-  <img src="./Img/nomnoml-1.png" alt="Infrastructure Schema">
+  <img src="./Img/DeploymentDiagram.png" alt="Infrastructure Schema">
 </div>
 
 **Description of the Diagram:**
@@ -63,6 +63,7 @@ Below is an introductory schematic view of the VMs we manage across two ESXi ser
 - **Description:** Microservice application server, non-clustered, dockerized.
 - **Status:** Ready but not currently under load.
 - **IP Address:** 192.168.10.69.
+
 
 #### DB-microservice (Server_252)
 
@@ -235,5 +236,24 @@ This setup effectively depicts our virtual machine management and organization.
 2. **Performance Overhead:** Running Vcenter as a VM introduces some performance overhead due to virtualization, which might impact its efficiency.
 3. **Complex Setup and Dependency:** The setup becomes more complex as Vcenter itself depends on the proper functioning of the ESXi host it resides on.
 4. **Resource Allocation:** Adequate resources must be allocated to the Vcenter VM to ensure smooth operation, which might strain the host ESXi server’s resources.
+
+## Security department
+
+### Set Password
+
+Passwords should be set according to standards and password changes should be done by the system administrator.
+To set the password, numbers, letters and characters must be used and it must be of a certain complexity.
+
+In general, passwords have different layers, which include the following
+
+- Servers Password 
+- Database password
+- Email password
+- Vendor password
+- ...
+
+### Change Password
+
+Passwords expire in six months and passwords must be changed every six months
 
 ---

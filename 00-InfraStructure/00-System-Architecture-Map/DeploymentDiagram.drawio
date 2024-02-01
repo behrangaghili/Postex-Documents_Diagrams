@@ -1,0 +1,230 @@
+<mxfile host="65bd71144e">
+    <diagram id="TDjN-N1ZxqR8Xuvd0jzu" name="Page-1">
+        <mxGraphModel dx="411" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <object label="TCP/IP" id="17">
+                    <mxCell style="edgeStyle=none;html=1;entryX=0.147;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.044;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" source="3" target="11" edge="1">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <mxCell id="3" value="Server 252" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="130" width="730" height="1480" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="stores Data" style="edgeStyle=none;html=1;" parent="3" source="4" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="206.30434782608694" y="1110.0000000000007" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="&lt;span style=&quot;color: rgb(9, 30, 66); font-family: Shabnam; font-size: 14px; text-align: start; background-color: rgb(244, 245, 247);&quot;&gt;Server_94_Win_DB_Main&lt;/span&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="31.74" y="230" width="258.26" height="120" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="windows 2019&lt;br&gt;ram :70G&lt;br&gt;proceessor : 30 Core&lt;br&gt;storage: 670G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="40" y="280" width="176.52" height="63.52" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Stores Data" style="edgeStyle=none;html=1;" parent="3" source="23" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;span style=&quot;color: rgb(9, 30, 66); font-family: Shabnam; font-size: 14px; text-align: start; background-color: rgb(244, 245, 247);&quot;&gt;&lt;b&gt;Server_69_Win_MicroserviceApp_Main&lt;/b&gt;&lt;/span&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="370" y="74.06" width="258.26" height="115.94" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="windows 2019&lt;br&gt;ram : 12G&lt;br&gt;proceessor : 8Core&lt;br&gt;storage:162 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="380" y="110" width="203.89" height="72.37" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;span style=&quot;color: rgb(9, 30, 66); font-family: Shabnam; font-size: 14px; text-align: start; background-color: rgb(244, 245, 247);&quot;&gt;Server_68_Win_MicroserviceDB_Main&lt;/span&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="370" y="230" width="258.26" height="120" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="windows 2019&lt;br&gt;ram :32 G&lt;br&gt;proceessor :4 Core&lt;br&gt;storage:282G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="379.99999999999994" y="248.76904761904763" width="176.52" height="101.23200000000001" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;span style=&quot;color: rgb(9, 30, 66); font-family: Shabnam; font-size: 14px; text-align: start; background-color: rgb(244, 245, 247);&quot;&gt;Server_100_Win_BI_Main&lt;/span&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="31.74" y="399.99999999999994" width="258.26" height="106.19" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="windows 2019&lt;br&gt;ram : 22G&lt;br&gt;proceessor : 4Core&lt;br&gt;storage:222G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="40" y="440" width="176.52" height="59.81" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="group" parent="3" vertex="1" connectable="0">
+                    <mxGeometry x="31.74" y="70.48" width="258.26" height="119.52" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;span style=&quot;color: rgb(9, 30, 66); font-family: Shabnam; font-size: 14px; text-align: start; background-color: rgb(244, 245, 247);&quot;&gt;&lt;b&gt;Server_101_Win_App_Main&lt;/b&gt;&lt;/span&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="9" vertex="1">
+                    <mxGeometry width="258.26" height="119.52" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="windows 2019&lt;br&gt;ram :32G&lt;br&gt;proceessor : 20 Core&lt;br&gt;storage: 232 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="9" vertex="1">
+                    <mxGeometry x="13.592631578947369" y="41.87449000000001" width="203.88947368421054" height="57.76551" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_64_Linux_StagingFront_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="20" y="560" width="320" height="108.86" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="Linux -Ubuntu&lt;br&gt;ram :8 G&lt;br&gt;proceessor : 2 Core&lt;br&gt;storage:116 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="31.74" y="600" width="176.52" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_14_Linux_StagingBack_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="359.13" y="560" width="328.26" height="110" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="Linux -Ubuntu&lt;br&gt;ram : 4G&lt;br&gt;proceessor : 2Core&lt;br&gt;storage:24 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="370" y="603.1899999999999" width="176.52" height="63.62" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_21_Linux_Vtiger_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="359.13" y="400" width="280" height="110" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Linux -Ubuntu&lt;br&gt;ram :16 G&lt;br&gt;proceessor : 8Core&lt;br&gt;storage:316 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="370" y="440" width="176.52" height="63.91" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_152_Linux_Issabel_Backup&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="20" y="720" width="320" height="108.86" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Server_57_Linux_Prometheus_Grafana_Main&lt;/font&gt;&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="363.26" y="720" width="336.74" height="108.86" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="3.x Linux&lt;br&gt;ram :6 G&lt;br&gt;proceessor : 2 Core&lt;br&gt;storage: 212 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="31.739999999999995" y="758.86" width="176.52" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Debian GNU/Linux&lt;br&gt;ram :8G&lt;br&gt;proceessor : 2 Core&lt;br&gt;storage: 128 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="370" y="762.05" width="176.52" height="63.62" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_58_Linux_MinIO_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="31.740000000000002" y="850" width="270" height="108.86" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="Debian GNU/Linux&lt;br&gt;ram : 8G&lt;br&gt;proceessor : 2 Core&lt;br&gt;storage: 128 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="31.739999999999995" y="888.86" width="176.52" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_60_Linux_Rabbitmq_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="359.13" y="850" width="310.87" height="108.86" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="Debian GNU/Linux&lt;br&gt;ram : 8 G&lt;br&gt;proceessor : 2 Core&lt;br&gt;storage:108 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="370" y="888.8599999999999" width="176.52" height="63.62" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_61_Linux_ELKStack_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="31.74" y="990" width="298.26" height="108.86" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="Debian GNU/Linux&lt;br&gt;ram : 8G&lt;br&gt;proceessor : 4Core&lt;br&gt;storage:128 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="40" y="1028.8600000000001" width="176.52" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_62_Linux_Nexus_Gitlab_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="350" y="990" width="330" height="108.86" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="Debian GNU/Linux&lt;br&gt;ram : 8G&lt;br&gt;proceessor : 4 Core&lt;br&gt;storage: 108 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="363.26" y="1028.86" width="176.52" height="63.62" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_35_Linux_WikiJs_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="31.739999999999995" y="1140" width="298.26" height="108.86" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="Linux -Ubuntu&lt;br&gt;ram : 16 G&lt;br&gt;proceessor : 8Core&lt;br&gt;storage: 96 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="3" vertex="1">
+                    <mxGeometry x="40" y="1178.8600000000001" width="176.52" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Server 250" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="60" width="850" height="1220" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="group" parent="11" vertex="1" connectable="0">
+                    <mxGeometry x="90" y="70" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_88_Win_Veeam_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="13" vertex="1">
+                    <mxGeometry width="260" height="180" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="windows 2019&lt;br&gt;ram : 20 G&lt;br&gt;proceessor : 6 Core&lt;br&gt;storage: 2.55 T" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="13" vertex="1">
+                    <mxGeometry x="13.684210526315791" y="48.00375000000001" width="205.26315789473682" height="86.99625000000002" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="windows 2019&lt;br&gt;ram :&lt;br&gt;proceessor :&lt;br&gt;storage:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="103.68421052631584" y="378.00375" width="205.26315789473682" height="86.99625000000002" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_23_Win_App_Staging&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="90" y="330" width="260" height="180" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="windows 2019&lt;br&gt;ram :&lt;br&gt;proceessor :&lt;br&gt;storage:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="103.68421052631584" y="628.0037500000001" width="205.26315789473682" height="86.99625000000002" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_31_Linux_VRP_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="90" y="580" width="260" height="180" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="windows 2019&lt;br&gt;ram :&lt;br&gt;proceessor :&lt;br&gt;storage:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="103.68421052631584" y="838.0037500000001" width="205.26315789473682" height="86.99625000000002" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;div style=&quot;box-sizing: inherit; display: flex; flex: 0 1 auto; flex-direction: column; color: rgb(0, 0, 0); font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;titles&quot;&gt;&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: var(--clr-h1-font-family,Metropolis,&amp;quot;Avenir Next&amp;quot;,&amp;quot;Helvetica Neue&amp;quot;,Arial,sans-serif); font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word;&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_80_Linux_Vcenter_Main&lt;/h1&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="90" y="790" width="290" height="180" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="windows 2019&lt;br&gt;ram :&lt;br&gt;proceessor :&lt;br&gt;storage:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="483.68421052631584" y="848.0037500000001" width="205.26315789473682" height="86.99625000000002" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Win_SRV-2022&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="470" y="800" width="260" height="180" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="" style="group" parent="11" vertex="1" connectable="0">
+                    <mxGeometry x="483.68000000000006" y="70" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_90_Win_DC_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="61" vertex="1">
+                    <mxGeometry width="260" height="180" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="windows 2019&lt;br&gt;ram : 4 G&lt;br&gt;proceessor : 2 Core&lt;br&gt;storage:204 G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="61" vertex="1">
+                    <mxGeometry x="13.684210526315791" y="48.00375000000001" width="205.26315789473682" height="86.99625000000002" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Server_99_Win_Jira_Main&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="483.68000000000006" y="330" width="260" height="180" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px 0.3rem; font-family: Metropolis, &amp;quot;Avenir Next&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-weight: var(--clr-h1-font-weight,200); line-height: 1.2rem; color: var(--clr-h1-color,#000); font-size: 1.1rem; overflow: hidden; word-break: break-word; text-align: start; background-color: rgb(250, 250, 250);&quot; class=&quot;title&quot; role=&quot;titlebar-title&quot; data-test-id=&quot;titlebar-title&quot;&gt;Win-Staging-252&lt;/h1&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="483.68000000000006" y="580" width="260" height="180" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="windows 2019&lt;br&gt;ram : 10G&lt;br&gt;proceessor : 4 Core&lt;br&gt;storage: 260G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="103.68421052631584" y="390.00375" width="205.26315789473682" height="86.99625000000002" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="windows 2019&lt;br&gt;ram : 10G&lt;br&gt;proceessor : 8 Core&lt;br&gt;storage: 310G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="497.36421052631584" y="390.00375" width="205.26315789473682" height="86.99625000000002" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="Debian GNU/Linux&lt;br&gt;ram :32G&lt;br&gt;proceessor : 64 Core&lt;br&gt;storage: 72G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="110" y="639.6899999999999" width="176.52" height="63.62" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="VMware Photon OS&lt;br&gt;ram :14G&lt;br&gt;proceessor : 2 Core&lt;br&gt;storage: 599G" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="11" vertex="1">
+                    <mxGeometry x="110" y="849.69" width="200" height="80.31" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
