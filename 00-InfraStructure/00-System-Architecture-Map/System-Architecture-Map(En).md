@@ -1,6 +1,6 @@
 # TL;DR PostEx Infrastructure Documentation
 
-Welcome to the PostEx Infrastructure Documentation repository! This space is dedicated to meticulously documenting and managing our IT infrastructure, ensuring every team member can quickly understand our system's layout and deployment strategy.
+This space is dedicated to meticulously documenting and managing our IT infrastructure, ensuring every team member can quickly understand our system's layout and deployment strategy.
 
 ## Overview
 
